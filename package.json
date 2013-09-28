@@ -1,0 +1,42 @@
+{
+  "name": "rohrpost",
+  "preferGlobal": true,
+  "version": "0.0.1",
+  "author": "Marek Ventur <marekventur@gmail.com>",
+  "description": "A websocket server that translates messages to redis pubsub messages",
+  "contributors": [ 
+    {
+      "name": "Marek Ventur",
+      "email": "marekventur@gmail.com"
+    } 
+  ],
+  "bin": {
+    "rohrpost": "./bin/rohrpost.js"
+  },
+  "scripts": {
+  	"start": "node ./bin/rohrpost.js"
+    "test": "mocha --recursive ./lib "
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:marekventur/rohrpost-server.git"
+  },
+  "keywords": [
+    "websockets",
+    "http",
+    "server",
+    "pubsub",
+    "redis"
+  ],
+  "dependencies" : {
+    "sockjs"   :  "0.3.7"
+  },
+  "analyze": false,
+  "devDependencies": {
+    "mocha":  "1.13.0"
+  },
+  "license": "MIT",
+  "engines": {
+    "node": ">=0.6"
+  }
+}
