@@ -1,5 +1,6 @@
-rohrpost
+Rohrpost
 ========
+<b>This is work in progress and nowhere near usable.</b>
 
 A front-facing layer that maintains (secure) websocket connections with browsers and passing messages through to pub/sub systems or http endpoints.
 

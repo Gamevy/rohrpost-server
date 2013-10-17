@@ -18,7 +18,8 @@ describe('HttpServer', function(){
                     cert: require('fs').readFileSync(__dirname + "/../keys/cert.pem")
                 },
                 host: "127.0.0.1",
-                mainPort: 7680
+                mainPort: 7680,
+                path: "/connect-test"
             }
         };
         httpServer = new HttpServer(config, new MockSupervisor(), logger);
@@ -32,14 +33,11 @@ describe('HttpServer', function(){
         httpServer.start();
 
         request({
-                uri: 'http://127.0.0.1:7680',
+                uri: 'http://127.0.0.1:7680/connect-test',
                 json: true
-            }, 
+            },
             function (error, response, body) {
-
-                assert.equal(body.protocol, 'http');
-                assert.equal(body.host, '127.0.0.1');
-                assert.equal(body.port, 1337);
+                assert.equal(body, 'http://127.0.0.1:1337/rohrpost');
                 done();
             }
         );
@@ -50,20 +48,45 @@ describe('HttpServer', function(){
         httpServer.start();
 
         request({
-                uri: 'https://127.0.0.1:7680',
+                uri: 'https://127.0.0.1:7680/connect-test',
                 json: true,
                 strictSSL: false
-            }, 
+            },
             function (error, response, body) {
-                assert.equal(body.protocol, 'https');
-                assert.equal(body.host, '127.0.0.1');
-                assert.equal(body.port, 1337);
+                assert.equal(body, 'https://127.0.0.1:1337/rohrpost');
                 done();
             }
         );
     });
 
+    it('returns static content over https', function(done){
+        config.http.https = true;
+        httpServer.start();
 
-  
+        request({
+                uri: 'https://127.0.0.1:7680/foo.txt',
+                json: true,
+                strictSSL: false
+            },
+            function (error, response, body) {
+                assert.equal(body, 'bar');
+                done();
+            }
+        );
+    });
+
+    it('returns static content over http', function(done){
+        httpServer.start();
+
+        request({
+                uri: 'http://127.0.0.1:7680/foo.txt',
+                json: true
+            },
+            function (error, response, body) {
+                assert.equal(body, 'bar');
+                done();
+            }
+        );
+    });
 
 });

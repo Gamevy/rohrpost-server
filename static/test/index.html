@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<title>Rohrpost test page</title>
+<link rel="stylesheet" href="mocha/mocha.css" />
+</head>
+<body>
+    <h1>Rohrpost test page</h1>
+    <i>Make sure to start rohrpost, redis and examples/test-backend.js before running this</i>
+
+    <!-- Set up mocha -->
+    <div id="mocha"></div>
+    <script src="chai/chai.js"></script>
+    <script src="mocha/mocha.js"></script>
+    <script>mocha.setup('bdd')</script>
+
+    <!-- Sockjs client library -->
+    <script src="/js/sockjs-0.3.min.js"></script>
+
+    <!-- rohrpost client library -->
+    <script src="/js/rohrpost-client.js"></script>
+
+    <!-- test scripts -->
+    <script src="test.rohrpost.js"></script>
+
+    <script>
+        mocha.checkLeaks();
+        mocha.globals(['jQuery']);
+
+        var connectionUrl = 'https://localhost:3000/connect';
+        mocha.run();
+    </script>
+</body>
+</html>

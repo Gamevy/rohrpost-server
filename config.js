@@ -9,6 +9,9 @@ module.exports = {
 		/* You should only use this for development. Set to false in production and host files somewhere else */
 		"static": __dirname + "/static",
 
+		/* This is the path that returns the endpoint to be used */
+		"path": "/connect",
+
 		/* Enable https support. */
 		"https": true,
 
@@ -20,7 +23,7 @@ module.exports = {
 
 		/* This is the host used for both the main process as well as the workers */
 		"host": "127.0.0.1",
-		
+
 		/* This is the main port that serves the connection information (and static http in dev environments) */
 		"mainPort": 3000,
 

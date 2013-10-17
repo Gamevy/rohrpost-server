@@ -3,12 +3,12 @@
   "preferGlobal": true,
   "version": "0.0.1",
   "author": "Marek Ventur <marekventur@gmail.com>",
-  "description": "A websocket server that translates messages to redis pubsub messages",
-  "contributors": [ 
+  "description": "A front-facing layer that maintains (secure) websocket connections with browsers and passing messages through to pub/sub systems or http endpoints",
+  "contributors": [
     {
       "name": "Marek Ventur",
       "email": "marekventur@gmail.com"
-    } 
+    }
   ],
   "bin": {
     "rohrpost": "./lib/app.js"
@@ -32,7 +32,8 @@
     "sockjs": "0.3.7",
     "express": "3.4.0",
     "winston": "0.7.2",
-    "underscore": "1.5.2"
+    "underscore": "1.5.2",
+    "redis": "0.8.4"
   },
   "devDependencies": {
     "mocha":  "1.13.0",
