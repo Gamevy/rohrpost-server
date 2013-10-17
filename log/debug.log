@@ -1,0 +1,841 @@
+2013-09-29T11:38:11.293Z - info: Started worker for port 3001 with pid 18219
+2013-09-29T11:38:11.297Z - info: Started worker for port 3002 with pid 18225
+2013-09-29T11:38:11.300Z - info: Started worker for port 3003 with pid 18226
+2013-09-29T11:38:11.302Z - info: Started worker for port 3004 with pid 18228
+2013-09-29T11:38:11.325Z - info: Main HTTP server is listening on 127.0.0.1:3000
+2013-09-29T11:38:11.528Z - info: Websocket worker started on 127.0.0.1:3002
+2013-09-29T11:38:11.539Z - info: Websocket worker started on 127.0.0.1:3003
+2013-09-29T11:38:11.548Z - info: Websocket worker started on 127.0.0.1:3001
+2013-09-29T11:38:11.589Z - info: Websocket worker started on 127.0.0.1:3004
+2013-09-29T11:38:30.181Z - info: Started worker for port 3001 with pid 18328
+2013-09-29T11:38:30.186Z - info: Started worker for port 3002 with pid 18334
+2013-09-29T11:38:30.190Z - info: Started worker for port 3003 with pid 18335
+2013-09-29T11:38:30.193Z - info: Started worker for port 3004 with pid 18338
+2013-09-29T11:38:30.212Z - info: Main HTTP server is listening on 127.0.0.1:3000
+2013-09-29T11:38:30.441Z - info: Websocket worker started on 127.0.0.1:3002
+2013-09-29T11:38:30.457Z - info: Websocket worker started on 127.0.0.1:3003
+2013-09-29T11:38:30.462Z - info: Websocket worker started on 127.0.0.1:3004
+2013-09-29T11:38:30.472Z - info: Websocket worker started on 127.0.0.1:3001
+2013-09-29T11:46:41.077Z - info: Gracefully shutting down
+2013-09-29T11:47:34.335Z - info: Main HTTP server is listening on 127.0.0.1:3000
+2013-09-29T11:47:34.568Z - info: Websocket worker started on 127.0.0.1:3004
+2013-09-29T11:47:34.581Z - warn: Worker for port 3004 exited. Trying to restart 3 times
+2013-09-29T11:47:34.603Z - info: Websocket worker started on 127.0.0.1:3001
+2013-09-29T11:47:34.605Z - info: Websocket worker started on 127.0.0.1:3002
+2013-09-29T11:47:34.615Z - warn: Worker for port 3001 exited. Trying to restart 3 times
+2013-09-29T11:47:34.618Z - info: Websocket worker started on 127.0.0.1:3003
+2013-09-29T11:47:34.623Z - warn: Worker for port 3002 exited. Trying to restart 3 times
+2013-09-29T11:47:34.630Z - warn: Worker for port 3003 exited. Trying to restart 3 times
+2013-09-29T11:47:34.837Z - info: Websocket worker started on 127.0.0.1:3004
+2013-09-29T11:47:34.850Z - warn: Worker for port 3004 exited. Trying to restart 2 times
+2013-09-29T11:47:34.876Z - info: Websocket worker started on 127.0.0.1:3002
+2013-09-29T11:47:34.890Z - warn: Worker for port 3002 exited. Trying to restart 2 times
+2013-09-29T11:47:34.903Z - info: Websocket worker started on 127.0.0.1:3003
+2013-09-29T11:47:34.912Z - info: Websocket worker started on 127.0.0.1:3001
+2013-09-29T11:47:34.915Z - warn: Worker for port 3003 exited. Trying to restart 2 times
+2013-09-29T11:47:34.921Z - warn: Worker for port 3001 exited. Trying to restart 2 times
+2013-09-29T11:47:35.101Z - info: Websocket worker started on 127.0.0.1:3004
+2013-09-29T11:47:35.114Z - warn: Worker for port 3004 exited. Trying to restart 1 times
+2013-09-29T11:47:35.136Z - info: Websocket worker started on 127.0.0.1:3002
+2013-09-29T11:47:35.146Z - warn: Worker for port 3002 exited. Trying to restart 1 times
+2013-09-29T11:47:35.171Z - info: Websocket worker started on 127.0.0.1:3001
+2013-09-29T11:47:35.180Z - warn: Worker for port 3001 exited. Trying to restart 1 times
+2013-09-29T11:47:35.219Z - info: Websocket worker started on 127.0.0.1:3003
+2013-09-29T11:47:35.232Z - warn: Worker for port 3003 exited. Trying to restart 1 times
+2013-09-29T11:47:35.359Z - info: Websocket worker started on 127.0.0.1:3004
+2013-09-29T11:47:35.368Z - warn: Worker for port 3004 exited. Trying to restart 0 times
+2013-09-29T11:47:35.412Z - info: Websocket worker started on 127.0.0.1:3002
+2013-09-29T11:47:35.421Z - warn: Worker for port 3002 exited. Trying to restart 0 times
+2013-09-29T11:47:35.446Z - info: Websocket worker started on 127.0.0.1:3001
+2013-09-29T11:47:35.464Z - warn: Worker for port 3001 exited. Trying to restart 0 times
+2013-09-29T11:47:35.521Z - info: Websocket worker started on 127.0.0.1:3003
+2013-09-29T11:47:35.530Z - warn: Worker for port 3003 exited. Trying to restart 0 times
+2013-09-29T11:47:35.657Z - info: Websocket worker started on 127.0.0.1:3004
+2013-09-29T11:47:35.674Z - warn: Worker for port 3004 exited. Trying to restart -1 times
+2013-09-29T11:47:35.680Z - info: Websocket worker started on 127.0.0.1:3002
+2013-09-29T11:47:35.691Z - warn: Worker for port 3002 exited. Trying to restart -1 times
+2013-09-29T11:47:35.744Z - info: Websocket worker started on 127.0.0.1:3001
+2013-09-29T11:47:35.763Z - warn: Worker for port 3001 exited. Trying to restart -1 times
+2013-09-29T11:47:35.782Z - info: Websocket worker started on 127.0.0.1:3003
+2013-09-29T11:47:35.791Z - warn: Worker for port 3003 exited. Trying to restart -1 times
+2013-09-29T11:47:35.921Z - info: Websocket worker started on 127.0.0.1:3004
+2013-09-29T11:47:35.945Z - warn: Worker for port 3004 exited. Trying to restart -2 times
+2013-09-29T11:47:35.945Z - info: Websocket worker started on 127.0.0.1:3002
+2013-09-29T11:47:35.956Z - warn: Worker for port 3002 exited. Trying to restart -2 times
+2013-09-29T11:47:36.034Z - info: Websocket worker started on 127.0.0.1:3001
+2013-09-29T11:47:36.048Z - warn: Worker for port 3001 exited. Trying to restart -2 times
+2013-09-29T11:47:36.064Z - info: Websocket worker started on 127.0.0.1:3003
+2013-09-29T11:47:36.074Z - warn: Worker for port 3003 exited. Trying to restart -2 times
+2013-09-29T11:47:36.220Z - info: Websocket worker started on 127.0.0.1:3004
+2013-09-29T11:47:36.229Z - warn: Worker for port 3004 exited. Trying to restart -3 times
+2013-09-29T11:47:36.248Z - info: Websocket worker started on 127.0.0.1:3002
+2013-09-29T11:47:36.263Z - warn: Worker for port 3002 exited. Trying to restart -3 times
+2013-09-29T11:47:36.303Z - info: Websocket worker started on 127.0.0.1:3003
+2013-09-29T11:47:36.312Z - warn: Worker for port 3003 exited. Trying to restart -3 times
+2013-09-29T11:47:36.360Z - info: Websocket worker started on 127.0.0.1:3001
+2013-09-29T11:47:36.368Z - warn: Worker for port 3001 exited. Trying to restart -3 times
+2013-09-29T11:47:36.469Z - info: Websocket worker started on 127.0.0.1:3004
+2013-09-29T11:47:36.480Z - warn: Worker for port 3004 exited. Trying to restart -4 times
+2013-09-29T11:47:36.565Z - info: Websocket worker started on 127.0.0.1:3003
+2013-09-29T11:47:36.574Z - warn: Worker for port 3003 exited. Trying to restart -4 times
+2013-09-29T11:47:36.580Z - info: Websocket worker started on 127.0.0.1:3002
+2013-09-29T11:47:36.597Z - warn: Worker for port 3002 exited. Trying to restart -4 times
+2013-09-29T11:47:36.629Z - info: Websocket worker started on 127.0.0.1:3001
+2013-09-29T11:47:36.638Z - warn: Worker for port 3001 exited. Trying to restart -4 times
+2013-09-29T11:47:36.728Z - info: Websocket worker started on 127.0.0.1:3004
+2013-09-29T11:47:36.740Z - warn: Worker for port 3004 exited. Trying to restart -5 times
+2013-09-29T11:47:36.869Z - info: Websocket worker started on 127.0.0.1:3002
+2013-09-29T11:47:36.881Z - warn: Worker for port 3002 exited. Trying to restart -5 times
+2013-09-29T11:47:36.882Z - info: Websocket worker started on 127.0.0.1:3003
+2013-09-29T11:47:36.890Z - warn: Worker for port 3003 exited. Trying to restart -5 times
+2013-09-29T11:47:36.918Z - info: Websocket worker started on 127.0.0.1:3001
+2013-09-29T11:47:36.929Z - warn: Worker for port 3001 exited. Trying to restart -5 times
+2013-09-29T11:47:37.012Z - info: Websocket worker started on 127.0.0.1:3004
+2013-09-29T11:47:37.028Z - warn: Worker for port 3004 exited. Trying to restart -6 times
+2013-09-29T11:47:37.119Z - info: Websocket worker started on 127.0.0.1:3002
+2013-09-29T11:47:37.136Z - warn: Worker for port 3002 exited. Trying to restart -6 times
+2013-09-29T11:47:37.159Z - info: Websocket worker started on 127.0.0.1:3003
+2013-09-29T11:47:37.172Z - warn: Worker for port 3003 exited. Trying to restart -6 times
+2013-09-29T11:47:37.199Z - info: Websocket worker started on 127.0.0.1:3001
+2013-09-29T11:47:37.214Z - warn: Worker for port 3001 exited. Trying to restart -6 times
+2013-09-29T11:47:37.277Z - info: Websocket worker started on 127.0.0.1:3004
+2013-09-29T11:47:37.299Z - warn: Worker for port 3004 exited. Trying to restart -7 times
+2013-09-29T11:47:37.383Z - info: Websocket worker started on 127.0.0.1:3002
+2013-09-29T11:47:37.395Z - warn: Worker for port 3002 exited. Trying to restart -7 times
+2013-09-29T11:47:37.452Z - info: Websocket worker started on 127.0.0.1:3003
+2013-09-29T11:47:37.462Z - warn: Worker for port 3003 exited. Trying to restart -7 times
+2013-09-29T11:47:37.481Z - info: Websocket worker started on 127.0.0.1:3001
+2013-09-29T11:47:37.490Z - warn: Worker for port 3001 exited. Trying to restart -7 times
+2013-09-29T11:47:37.599Z - info: Websocket worker started on 127.0.0.1:3004
+2013-09-29T11:47:37.608Z - warn: Worker for port 3004 exited. Trying to restart -8 times
+2013-09-29T11:47:37.686Z - info: Websocket worker started on 127.0.0.1:3002
+2013-09-29T11:47:37.698Z - warn: Worker for port 3002 exited. Trying to restart -8 times
+2013-09-29T11:47:37.734Z - info: Websocket worker started on 127.0.0.1:3003
+2013-09-29T11:47:37.751Z - warn: Worker for port 3003 exited. Trying to restart -8 times
+2013-09-29T11:47:37.775Z - info: Websocket worker started on 127.0.0.1:3001
+2013-09-29T11:47:37.791Z - warn: Worker for port 3001 exited. Trying to restart -8 times
+2013-09-29T11:47:37.858Z - info: Websocket worker started on 127.0.0.1:3004
+2013-09-29T11:47:37.875Z - warn: Worker for port 3004 exited. Trying to restart -9 times
+2013-09-29T11:47:37.958Z - info: Websocket worker started on 127.0.0.1:3002
+2013-09-29T11:47:37.971Z - warn: Worker for port 3002 exited. Trying to restart -9 times
+2013-09-29T11:47:38.041Z - info: Websocket worker started on 127.0.0.1:3003
+2013-09-29T11:47:38.056Z - warn: Worker for port 3003 exited. Trying to restart -9 times
+2013-09-29T11:47:38.084Z - info: Websocket worker started on 127.0.0.1:3001
+2013-09-29T11:47:38.101Z - warn: Worker for port 3001 exited. Trying to restart -9 times
+2013-09-29T11:47:38.121Z - info: Websocket worker started on 127.0.0.1:3004
+2013-09-29T11:47:38.141Z - warn: Worker for port 3004 exited. Trying to restart -10 times
+2013-09-29T11:47:38.210Z - info: Websocket worker started on 127.0.0.1:3002
+2013-09-29T11:47:38.226Z - warn: Worker for port 3002 exited. Trying to restart -10 times
+2013-09-29T11:47:38.300Z - info: Websocket worker started on 127.0.0.1:3003
+2013-09-29T11:47:38.311Z - warn: Worker for port 3003 exited. Trying to restart -10 times
+2013-09-29T11:47:38.364Z - info: Websocket worker started on 127.0.0.1:3001
+2013-09-29T11:47:38.375Z - warn: Worker for port 3001 exited. Trying to restart -10 times
+2013-09-29T11:47:38.465Z - info: Websocket worker started on 127.0.0.1:3004
+2013-09-29T11:47:38.473Z - warn: Worker for port 3004 exited. Trying to restart -11 times
+2013-09-29T11:47:38.473Z - info: Websocket worker started on 127.0.0.1:3002
+2013-09-29T11:47:38.490Z - warn: Worker for port 3002 exited. Trying to restart -11 times
+2013-09-29T11:47:38.575Z - info: Websocket worker started on 127.0.0.1:3003
+2013-09-29T11:47:38.590Z - warn: Worker for port 3003 exited. Trying to restart -11 times
+2013-09-29T11:47:38.673Z - info: Websocket worker started on 127.0.0.1:3001
+2013-09-29T11:47:38.686Z - warn: Worker for port 3001 exited. Trying to restart -11 times
+2013-09-29T11:47:38.721Z - info: Websocket worker started on 127.0.0.1:3004
+2013-09-29T11:47:38.736Z - warn: Worker for port 3004 exited. Trying to restart -12 times
+2013-09-29T11:47:38.753Z - info: Websocket worker started on 127.0.0.1:3002
+2013-09-29T11:47:38.763Z - warn: Worker for port 3002 exited. Trying to restart -12 times
+2013-09-29T11:47:38.856Z - info: Websocket worker started on 127.0.0.1:3003
+2013-09-29T11:47:38.867Z - warn: Worker for port 3003 exited. Trying to restart -12 times
+2013-09-29T11:47:38.983Z - info: Websocket worker started on 127.0.0.1:3004
+2013-09-29T11:47:38.995Z - warn: Worker for port 3004 exited. Trying to restart -13 times
+2013-09-29T11:47:39.001Z - info: Websocket worker started on 127.0.0.1:3001
+2013-09-29T11:47:39.013Z - warn: Worker for port 3001 exited. Trying to restart -12 times
+2013-09-29T11:47:39.030Z - info: Websocket worker started on 127.0.0.1:3002
+2013-09-29T11:47:39.045Z - warn: Worker for port 3002 exited. Trying to restart -13 times
+2013-09-29T11:47:39.134Z - info: Websocket worker started on 127.0.0.1:3003
+2013-09-29T11:47:39.147Z - warn: Worker for port 3003 exited. Trying to restart -13 times
+2013-09-29T11:47:39.270Z - info: Websocket worker started on 127.0.0.1:3001
+2013-09-29T11:47:39.284Z - warn: Worker for port 3001 exited. Trying to restart -13 times
+2013-09-29T11:47:39.298Z - info: Websocket worker started on 127.0.0.1:3004
+2013-09-29T11:47:39.307Z - warn: Worker for port 3004 exited. Trying to restart -14 times
+2013-09-29T11:47:39.304Z - info: Websocket worker started on 127.0.0.1:3002
+2013-09-29T11:47:39.319Z - warn: Worker for port 3002 exited. Trying to restart -14 times
+2013-09-29T11:47:39.488Z - info: Websocket worker started on 127.0.0.1:3003
+2013-09-29T11:47:39.503Z - warn: Worker for port 3003 exited. Trying to restart -14 times
+2013-09-29T11:47:39.577Z - info: Websocket worker started on 127.0.0.1:3004
+2013-09-29T11:47:39.590Z - warn: Worker for port 3004 exited. Trying to restart -15 times
+2013-09-29T11:47:39.588Z - info: Websocket worker started on 127.0.0.1:3002
+2013-09-29T11:47:39.598Z - warn: Worker for port 3002 exited. Trying to restart -15 times
+2013-09-29T11:47:39.610Z - info: Websocket worker started on 127.0.0.1:3001
+2013-09-29T11:47:39.627Z - warn: Worker for port 3001 exited. Trying to restart -14 times
+2013-09-29T11:47:39.765Z - info: Websocket worker started on 127.0.0.1:3003
+2013-09-29T11:47:39.775Z - warn: Worker for port 3003 exited. Trying to restart -15 times
+2013-09-29T11:47:39.855Z - info: Websocket worker started on 127.0.0.1:3002
+2013-09-29T11:47:39.867Z - warn: Worker for port 3002 exited. Trying to restart -16 times
+2013-09-29T11:47:39.949Z - info: Websocket worker started on 127.0.0.1:3001
+2013-09-29T11:47:39.957Z - warn: Worker for port 3001 exited. Trying to restart -15 times
+2013-09-29T11:47:40.010Z - info: Websocket worker started on 127.0.0.1:3004
+2013-09-29T11:47:40.031Z - warn: Worker for port 3004 exited. Trying to restart -16 times
+2013-09-29T11:47:40.073Z - info: Websocket worker started on 127.0.0.1:3003
+2013-09-29T11:47:40.088Z - warn: Worker for port 3003 exited. Trying to restart -16 times
+2013-09-29T11:47:40.116Z - info: Websocket worker started on 127.0.0.1:3002
+2013-09-29T11:47:40.128Z - warn: Worker for port 3002 exited. Trying to restart -17 times
+2013-09-29T11:47:40.200Z - info: Websocket worker started on 127.0.0.1:3001
+2013-09-29T11:47:40.215Z - warn: Worker for port 3001 exited. Trying to restart -16 times
+2013-09-29T11:47:40.326Z - info: Websocket worker started on 127.0.0.1:3004
+2013-09-29T11:47:40.335Z - warn: Worker for port 3004 exited. Trying to restart -17 times
+2013-09-29T11:47:40.340Z - info: Websocket worker started on 127.0.0.1:3003
+2013-09-29T11:47:40.362Z - warn: Worker for port 3003 exited. Trying to restart -17 times
+2013-09-29T11:47:40.414Z - info: Websocket worker started on 127.0.0.1:3002
+2013-09-29T11:47:40.424Z - warn: Worker for port 3002 exited. Trying to restart -18 times
+2013-09-29T11:47:40.519Z - info: Websocket worker started on 127.0.0.1:3001
+2013-09-29T11:47:40.539Z - warn: Worker for port 3001 exited. Trying to restart -17 times
+2013-09-29T11:47:40.588Z - info: Websocket worker started on 127.0.0.1:3004
+2013-09-29T11:47:40.600Z - warn: Worker for port 3004 exited. Trying to restart -18 times
+2013-09-29T11:47:40.612Z - info: Websocket worker started on 127.0.0.1:3003
+2013-09-29T11:47:40.621Z - warn: Worker for port 3003 exited. Trying to restart -18 times
+2013-09-29T11:47:40.674Z - info: Websocket worker started on 127.0.0.1:3002
+2013-09-29T11:47:40.684Z - warn: Worker for port 3002 exited. Trying to restart -19 times
+2013-09-29T11:47:40.823Z - info: Websocket worker started on 127.0.0.1:3001
+2013-09-29T11:47:40.832Z - warn: Worker for port 3001 exited. Trying to restart -18 times
+2013-09-29T11:47:40.873Z - info: Websocket worker started on 127.0.0.1:3003
+2013-09-29T11:47:40.885Z - warn: Worker for port 3003 exited. Trying to restart -19 times
+2013-09-29T11:47:40.885Z - info: Websocket worker started on 127.0.0.1:3004
+2013-09-29T11:47:40.893Z - warn: Worker for port 3004 exited. Trying to restart -19 times
+2013-09-29T11:47:40.979Z - info: Websocket worker started on 127.0.0.1:3002
+2013-09-29T11:47:40.995Z - warn: Worker for port 3002 exited. Trying to restart -20 times
+2013-09-29T11:47:41.075Z - info: Websocket worker started on 127.0.0.1:3001
+2013-09-29T11:47:41.085Z - warn: Worker for port 3001 exited. Trying to restart -19 times
+2013-09-29T11:47:41.154Z - info: Websocket worker started on 127.0.0.1:3003
+2013-09-29T11:47:41.165Z - warn: Worker for port 3003 exited. Trying to restart -20 times
+2013-09-29T11:47:41.191Z - info: Websocket worker started on 127.0.0.1:3004
+2013-09-29T11:47:41.207Z - warn: Worker for port 3004 exited. Trying to restart -20 times
+2013-09-29T11:47:41.248Z - info: Websocket worker started on 127.0.0.1:3002
+2013-09-29T11:47:41.259Z - warn: Worker for port 3002 exited. Trying to restart -21 times
+2013-09-29T11:47:41.343Z - info: Websocket worker started on 127.0.0.1:3001
+2013-09-29T11:47:41.352Z - warn: Worker for port 3001 exited. Trying to restart -20 times
+2013-09-29T11:47:41.415Z - info: Websocket worker started on 127.0.0.1:3003
+2013-09-29T11:47:41.425Z - warn: Worker for port 3003 exited. Trying to restart -21 times
+2013-09-29T11:47:41.509Z - info: Websocket worker started on 127.0.0.1:3002
+2013-09-29T11:47:41.519Z - warn: Worker for port 3002 exited. Trying to restart -22 times
+2013-09-29T11:47:41.527Z - info: Websocket worker started on 127.0.0.1:3004
+2013-09-29T11:47:41.545Z - warn: Worker for port 3004 exited. Trying to restart -21 times
+2013-09-29T11:47:41.601Z - info: Websocket worker started on 127.0.0.1:3001
+2013-09-29T11:47:41.615Z - warn: Worker for port 3001 exited. Trying to restart -21 times
+2013-09-29T11:47:41.718Z - info: Websocket worker started on 127.0.0.1:3003
+2013-09-29T11:47:41.731Z - warn: Worker for port 3003 exited. Trying to restart -22 times
+2013-09-29T11:47:41.758Z - info: Websocket worker started on 127.0.0.1:3002
+2013-09-29T11:47:41.771Z - warn: Worker for port 3002 exited. Trying to restart -23 times
+2013-09-29T11:47:41.829Z - info: Websocket worker started on 127.0.0.1:3004
+2013-09-29T11:47:41.839Z - warn: Worker for port 3004 exited. Trying to restart -22 times
+2013-09-29T11:47:41.922Z - info: Websocket worker started on 127.0.0.1:3001
+2013-09-29T11:47:41.939Z - warn: Worker for port 3001 exited. Trying to restart -22 times
+2013-09-29T11:47:41.995Z - info: Websocket worker started on 127.0.0.1:3003
+2013-09-29T11:47:42.006Z - warn: Worker for port 3003 exited. Trying to restart -23 times
+2013-09-29T11:47:42.022Z - info: Websocket worker started on 127.0.0.1:3002
+2013-09-29T11:47:42.039Z - warn: Worker for port 3002 exited. Trying to restart -24 times
+2013-09-29T11:47:42.115Z - info: Websocket worker started on 127.0.0.1:3004
+2013-09-29T11:47:42.127Z - warn: Worker for port 3004 exited. Trying to restart -23 times
+2013-09-29T11:47:42.202Z - info: Websocket worker started on 127.0.0.1:3001
+2013-09-29T11:47:42.213Z - warn: Worker for port 3001 exited. Trying to restart -23 times
+2013-09-29T11:47:42.294Z - info: Websocket worker started on 127.0.0.1:3002
+2013-09-29T11:47:42.311Z - warn: Worker for port 3002 exited. Trying to restart -25 times
+2013-09-29T11:47:42.322Z - info: Websocket worker started on 127.0.0.1:3003
+2013-09-29T11:47:42.334Z - warn: Worker for port 3003 exited. Trying to restart -24 times
+2013-09-29T11:47:42.383Z - info: Websocket worker started on 127.0.0.1:3004
+2013-09-29T11:47:42.395Z - warn: Worker for port 3004 exited. Trying to restart -24 times
+2013-09-29T11:47:42.492Z - info: Websocket worker started on 127.0.0.1:3001
+2013-09-29T11:47:42.503Z - warn: Worker for port 3001 exited. Trying to restart -24 times
+2013-09-29T11:47:42.547Z - info: Websocket worker started on 127.0.0.1:3002
+2013-09-29T11:47:42.558Z - warn: Worker for port 3002 exited. Trying to restart -26 times
+2013-09-29T11:47:42.589Z - info: Websocket worker started on 127.0.0.1:3003
+2013-09-29T11:47:42.598Z - warn: Worker for port 3003 exited. Trying to restart -25 times
+2013-09-29T11:47:42.693Z - info: Websocket worker started on 127.0.0.1:3004
+2013-09-29T11:47:42.707Z - warn: Worker for port 3004 exited. Trying to restart -25 times
+2013-09-29T11:47:42.810Z - info: Websocket worker started on 127.0.0.1:3001
+2013-09-29T11:47:42.827Z - warn: Worker for port 3001 exited. Trying to restart -25 times
+2013-09-29T11:47:42.873Z - info: Websocket worker started on 127.0.0.1:3003
+2013-09-29T11:47:42.892Z - warn: Worker for port 3003 exited. Trying to restart -26 times
+2013-09-29T11:47:42.893Z - info: Websocket worker started on 127.0.0.1:3002
+2013-09-29T11:47:42.906Z - warn: Worker for port 3002 exited. Trying to restart -27 times
+2013-09-29T11:47:43.021Z - info: Websocket worker started on 127.0.0.1:3004
+2013-09-29T11:47:43.031Z - warn: Worker for port 3004 exited. Trying to restart -26 times
+2013-09-29T11:47:43.119Z - info: Websocket worker started on 127.0.0.1:3001
+2013-09-29T11:47:43.127Z - warn: Worker for port 3001 exited. Trying to restart -26 times
+2013-09-29T11:47:43.148Z - info: Websocket worker started on 127.0.0.1:3003
+2013-09-29T11:47:43.167Z - warn: Worker for port 3003 exited. Trying to restart -27 times
+2013-09-29T11:47:43.230Z - info: Websocket worker started on 127.0.0.1:3002
+2013-09-29T11:47:43.239Z - warn: Worker for port 3002 exited. Trying to restart -28 times
+2013-09-29T11:47:43.279Z - info: Websocket worker started on 127.0.0.1:3004
+2013-09-29T11:47:43.291Z - warn: Worker for port 3004 exited. Trying to restart -27 times
+2013-09-29T11:47:43.420Z - info: Websocket worker started on 127.0.0.1:3003
+2013-09-29T11:47:43.431Z - warn: Worker for port 3003 exited. Trying to restart -28 times
+2013-09-29T11:47:43.457Z - info: Websocket worker started on 127.0.0.1:3001
+2013-09-29T11:47:43.476Z - warn: Worker for port 3001 exited. Trying to restart -27 times
+2013-09-29T11:47:43.490Z - info: Websocket worker started on 127.0.0.1:3002
+2013-09-29T11:47:43.503Z - warn: Worker for port 3002 exited. Trying to restart -29 times
+2013-09-29T11:47:43.536Z - info: Websocket worker started on 127.0.0.1:3004
+2013-09-29T11:47:43.549Z - warn: Worker for port 3004 exited. Trying to restart -28 times
+2013-09-29T11:47:43.749Z - info: Websocket worker started on 127.0.0.1:3002
+2013-09-29T11:47:43.773Z - info: Websocket worker started on 127.0.0.1:3003
+2013-09-29T11:47:43.783Z - info: Websocket worker started on 127.0.0.1:3001
+2013-09-29T11:47:43.785Z - info: Websocket worker started on 127.0.0.1:3004
+2013-09-29T11:49:37.410Z - info: Main HTTP server is listening on 127.0.0.1:3000
+2013-09-29T11:49:37.614Z - info: Websocket worker started on 127.0.0.1:3001
+2013-09-29T11:49:37.624Z - warn: Worker for port 3001 exited. Trying to restart 3 times
+2013-09-29T11:49:37.638Z - info: Websocket worker started on 127.0.0.1:3003
+2013-09-29T11:49:37.647Z - warn: Worker for port 3003 exited. Trying to restart 3 times
+2013-09-29T11:49:37.660Z - info: Websocket worker started on 127.0.0.1:3004
+2013-09-29T11:49:37.669Z - warn: Worker for port 3004 exited. Trying to restart 3 times
+2013-09-29T11:49:37.666Z - info: Websocket worker started on 127.0.0.1:3002
+2013-09-29T11:49:37.683Z - warn: Worker for port 3002 exited. Trying to restart 3 times
+2013-09-29T11:49:37.873Z - info: Websocket worker started on 127.0.0.1:3001
+2013-09-29T11:49:37.887Z - warn: Worker for port 3001 exited. Trying to restart 2 times
+2013-09-29T11:49:37.889Z - info: Websocket worker started on 127.0.0.1:3003
+2013-09-29T11:49:37.896Z - warn: Worker for port 3003 exited. Trying to restart 2 times
+2013-09-29T11:49:37.958Z - info: Websocket worker started on 127.0.0.1:3004
+2013-09-29T11:49:37.967Z - warn: Worker for port 3004 exited. Trying to restart 2 times
+2013-09-29T11:49:38.016Z - info: Websocket worker started on 127.0.0.1:3002
+2013-09-29T11:49:38.033Z - warn: Worker for port 3002 exited. Trying to restart 2 times
+2013-09-29T11:49:38.127Z - info: Websocket worker started on 127.0.0.1:3003
+2013-09-29T11:49:38.134Z - info: Websocket worker started on 127.0.0.1:3001
+2013-09-29T11:49:38.139Z - warn: Worker for port 3003 exited. Trying to restart 1 times
+2013-09-29T11:49:38.143Z - warn: Worker for port 3001 exited. Trying to restart 1 times
+2013-09-29T11:49:38.278Z - info: Websocket worker started on 127.0.0.1:3004
+2013-09-29T11:49:38.282Z - info: Websocket worker started on 127.0.0.1:3002
+2013-09-29T11:49:38.289Z - warn: Worker for port 3004 exited. Trying to restart 1 times
+2013-09-29T11:49:38.295Z - warn: Worker for port 3002 exited. Trying to restart 1 times
+2013-09-29T11:49:38.386Z - info: Websocket worker started on 127.0.0.1:3003
+2013-09-29T11:49:38.387Z - info: Websocket worker started on 127.0.0.1:3001
+2013-09-29T11:49:38.397Z - warn: Worker for port 3001 exited. No restart will be attempted any more.
+2013-09-29T11:49:38.398Z - warn: Worker for port 3003 exited. No restart will be attempted any more.
+2013-09-29T11:49:38.537Z - info: Websocket worker started on 127.0.0.1:3002
+2013-09-29T11:49:38.545Z - warn: Worker for port 3002 exited. No restart will be attempted any more.
+2013-09-29T11:49:38.544Z - info: Websocket worker started on 127.0.0.1:3004
+2013-09-29T11:49:38.552Z - warn: Worker for port 3004 exited. No restart will be attempted any more.
+2013-09-29T11:50:07.227Z - info: Gracefully shutting down
+2013-09-29T11:50:08.685Z - info: Main HTTP server is listening on 127.0.0.1:3000
+2013-09-29T11:50:08.897Z - info: Websocket worker started on 127.0.0.1:3001
+2013-09-29T11:50:08.906Z - warn: Worker for port 3001 exited. Trying to restart 3 times
+2013-09-29T11:50:08.923Z - info: Websocket worker started on 127.0.0.1:3004
+2013-09-29T11:50:08.927Z - info: Websocket worker started on 127.0.0.1:3002
+2013-09-29T11:50:08.932Z - warn: Worker for port 3004 exited. Trying to restart 3 times
+2013-09-29T11:50:08.934Z - warn: Worker for port 3002 exited. Trying to restart 3 times
+2013-09-29T11:50:08.970Z - info: Websocket worker started on 127.0.0.1:3003
+2013-09-29T11:50:08.978Z - warn: Worker for port 3003 exited. Trying to restart 3 times
+2013-09-29T11:50:10.170Z - info: Websocket worker started on 127.0.0.1:3002
+2013-09-29T11:50:10.179Z - warn: Worker for port 3002 exited. Trying to restart 2 times
+2013-09-29T11:50:10.204Z - info: Websocket worker started on 127.0.0.1:3001
+2013-09-29T11:50:10.210Z - warn: Worker for port 3001 exited. Trying to restart 2 times
+2013-09-29T11:50:10.240Z - info: Websocket worker started on 127.0.0.1:3004
+2013-09-29T11:50:10.248Z - warn: Worker for port 3004 exited. Trying to restart 2 times
+2013-09-29T11:50:10.269Z - info: Websocket worker started on 127.0.0.1:3003
+2013-09-29T11:50:10.277Z - warn: Worker for port 3003 exited. Trying to restart 2 times
+2013-09-29T11:50:11.416Z - info: Websocket worker started on 127.0.0.1:3001
+2013-09-29T11:50:11.412Z - info: Websocket worker started on 127.0.0.1:3002
+2013-09-29T11:50:11.424Z - warn: Worker for port 3001 exited. Trying to restart 1 times
+2013-09-29T11:50:11.429Z - warn: Worker for port 3002 exited. Trying to restart 1 times
+2013-09-29T11:50:11.521Z - info: Websocket worker started on 127.0.0.1:3004
+2013-09-29T11:50:11.529Z - warn: Worker for port 3004 exited. Trying to restart 1 times
+2013-09-29T11:50:11.528Z - info: Websocket worker started on 127.0.0.1:3003
+2013-09-29T11:50:11.533Z - warn: Worker for port 3003 exited. Trying to restart 1 times
+2013-09-29T11:50:14.970Z - info: Main HTTP server is listening on 127.0.0.1:3000
+2013-09-29T11:50:15.173Z - info: Websocket worker started on 127.0.0.1:3003
+2013-09-29T11:50:15.187Z - warn: Worker for port 3003 exited. Trying to restart 3 times
+2013-09-29T11:50:15.186Z - info: Websocket worker started on 127.0.0.1:3002
+2013-09-29T11:50:15.196Z - warn: Worker for port 3002 exited. Trying to restart 3 times
+2013-09-29T11:50:15.211Z - info: Websocket worker started on 127.0.0.1:3004
+2013-09-29T11:50:15.218Z - warn: Worker for port 3004 exited. Trying to restart 3 times
+2013-09-29T11:50:15.226Z - info: Websocket worker started on 127.0.0.1:3001
+2013-09-29T11:50:15.233Z - warn: Worker for port 3001 exited. Trying to restart 3 times
+2013-09-29T11:50:16.476Z - info: Websocket worker started on 127.0.0.1:3002
+2013-09-29T11:50:16.486Z - warn: Worker for port 3002 exited. Trying to restart 2 times
+2013-09-29T11:50:16.488Z - info: Websocket worker started on 127.0.0.1:3004
+2013-09-29T11:50:16.497Z - warn: Worker for port 3004 exited. Trying to restart 2 times
+2013-09-29T11:50:16.512Z - info: Websocket worker started on 127.0.0.1:3001
+2013-09-29T11:50:16.513Z - info: Websocket worker started on 127.0.0.1:3003
+2013-09-29T11:50:16.518Z - warn: Worker for port 3001 exited. Trying to restart 2 times
+2013-09-29T11:50:16.519Z - warn: Worker for port 3003 exited. Trying to restart 2 times
+2013-09-29T11:50:17.750Z - info: Websocket worker started on 127.0.0.1:3004
+2013-09-29T11:50:17.760Z - warn: Worker for port 3004 exited. Trying to restart 1 times
+2013-09-29T11:50:17.789Z - info: Websocket worker started on 127.0.0.1:3002
+2013-09-29T11:50:17.787Z - info: Websocket worker started on 127.0.0.1:3001
+2013-09-29T11:50:17.795Z - warn: Worker for port 3002 exited. Trying to restart 1 times
+2013-09-29T11:50:17.796Z - warn: Worker for port 3001 exited. Trying to restart 1 times
+2013-09-29T11:50:17.836Z - info: Websocket worker started on 127.0.0.1:3003
+2013-09-29T11:50:17.844Z - warn: Worker for port 3003 exited. Trying to restart 1 times
+2013-09-29T11:50:19.045Z - info: Websocket worker started on 127.0.0.1:3004
+2013-09-29T11:50:19.054Z - warn: Worker for port 3004 exited. No restart will be attempted any more.
+2013-09-29T11:50:19.063Z - info: Websocket worker started on 127.0.0.1:3002
+2013-09-29T11:50:19.076Z - warn: Worker for port 3002 exited. No restart will be attempted any more.
+2013-09-29T11:50:19.079Z - info: Websocket worker started on 127.0.0.1:3001
+2013-09-29T11:50:19.085Z - warn: Worker for port 3001 exited. No restart will be attempted any more.
+2013-09-29T11:50:19.104Z - info: Websocket worker started on 127.0.0.1:3003
+2013-09-29T11:50:19.111Z - warn: Worker for port 3003 exited. No restart will be attempted any more.
+2013-09-29T11:50:59.962Z - info: Gracefully shutting down
+2013-09-29T11:51:01.156Z - info: Main HTTP server is listening on 127.0.0.1:3000
+2013-09-29T11:51:01.345Z - info: Websocket worker started on 127.0.0.1:3002
+2013-09-29T11:51:01.357Z - warn: Worker for port 3002 exited. Trying to restart 3 times
+2013-09-29T11:51:01.371Z - info: Websocket worker started on 127.0.0.1:3003
+2013-09-29T11:51:01.378Z - warn: Worker for port 3003 exited. Trying to restart 3 times
+2013-09-29T11:51:01.410Z - info: Websocket worker started on 127.0.0.1:3004
+2013-09-29T11:51:01.417Z - warn: Worker for port 3004 exited. Trying to restart 3 times
+2013-09-29T11:51:01.445Z - info: Websocket worker started on 127.0.0.1:3001
+2013-09-29T11:51:01.453Z - warn: Worker for port 3001 exited. Trying to restart 3 times
+2013-09-29T11:51:02.555Z - info: Websocket worker started on 127.0.0.1:3002
+2013-09-29T11:51:02.579Z - warn: Worker for port 3002 exited. Trying to restart 2 times
+2013-09-29T11:51:02.619Z - info: Websocket worker started on 127.0.0.1:3003
+2013-09-29T11:51:02.627Z - warn: Worker for port 3003 exited. Trying to restart 2 times
+2013-09-29T11:51:02.669Z - info: Websocket worker started on 127.0.0.1:3004
+2013-09-29T11:51:02.676Z - warn: Worker for port 3004 exited. Trying to restart 2 times
+2013-09-29T11:51:02.708Z - info: Websocket worker started on 127.0.0.1:3001
+2013-09-29T11:51:02.715Z - warn: Worker for port 3001 exited. Trying to restart 2 times
+2013-09-29T11:51:03.762Z - info: Websocket worker started on 127.0.0.1:3002
+2013-09-29T11:51:03.771Z - warn: Worker for port 3002 exited. Trying to restart 1 times
+2013-09-29T11:51:03.879Z - info: Websocket worker started on 127.0.0.1:3003
+2013-09-29T11:51:03.891Z - warn: Worker for port 3003 exited. Trying to restart 1 times
+2013-09-29T11:51:03.910Z - info: Websocket worker started on 127.0.0.1:3004
+2013-09-29T11:51:03.917Z - warn: Worker for port 3004 exited. Trying to restart 1 times
+2013-09-29T11:51:03.950Z - info: Websocket worker started on 127.0.0.1:3001
+2013-09-29T11:51:03.958Z - warn: Worker for port 3001 exited. Trying to restart 1 times
+2013-09-29T11:51:06.385Z - info: Main HTTP server is listening on 127.0.0.1:3000
+2013-09-29T11:51:06.580Z - info: Websocket worker started on 127.0.0.1:3001
+2013-09-29T11:51:06.591Z - warn: Worker for port 3001 exited. Trying to restart 3 times
+2013-09-29T11:51:06.590Z - info: Websocket worker started on 127.0.0.1:3003
+2013-09-29T11:51:06.603Z - warn: Worker for port 3003 exited. Trying to restart 3 times
+2013-09-29T11:51:06.611Z - info: Websocket worker started on 127.0.0.1:3002
+2013-09-29T11:51:06.620Z - warn: Worker for port 3002 exited. Trying to restart 3 times
+2013-09-29T11:51:06.636Z - info: Websocket worker started on 127.0.0.1:3004
+2013-09-29T11:51:06.643Z - warn: Worker for port 3004 exited. Trying to restart 3 times
+2013-09-29T11:51:07.795Z - info: Websocket worker started on 127.0.0.1:3001
+2013-09-29T11:51:07.805Z - warn: Worker for port 3001 exited. Trying to restart 2 times
+2013-09-29T11:51:07.871Z - info: Websocket worker started on 127.0.0.1:3002
+2013-09-29T11:51:07.879Z - warn: Worker for port 3002 exited. Trying to restart 2 times
+2013-09-29T11:51:07.916Z - info: Websocket worker started on 127.0.0.1:3003
+2013-09-29T11:51:07.924Z - warn: Worker for port 3003 exited. Trying to restart 2 times
+2013-09-29T11:51:07.961Z - info: Websocket worker started on 127.0.0.1:3004
+2013-09-29T11:51:07.969Z - warn: Worker for port 3004 exited. Trying to restart 2 times
+2013-09-29T11:51:08.966Z - info: Websocket worker started on 127.0.0.1:3001
+2013-09-29T11:51:08.975Z - warn: Worker for port 3001 exited. Trying to restart 1 times
+2013-09-29T11:51:09.123Z - info: Websocket worker started on 127.0.0.1:3002
+2013-09-29T11:51:09.135Z - warn: Worker for port 3002 exited. Trying to restart 1 times
+2013-09-29T11:51:09.146Z - info: Websocket worker started on 127.0.0.1:3003
+2013-09-29T11:51:09.153Z - warn: Worker for port 3003 exited. Trying to restart 1 times
+2013-09-29T11:51:09.163Z - info: Websocket worker started on 127.0.0.1:3004
+2013-09-29T11:51:09.171Z - warn: Worker for port 3004 exited. Trying to restart 1 times
+2013-09-29T11:51:10.155Z - info: Websocket worker started on 127.0.0.1:3001
+2013-09-29T11:51:10.162Z - warn: Worker for port 3001 exited. No restart will be attempted any more.
+2013-09-29T11:51:10.345Z - info: Websocket worker started on 127.0.0.1:3002
+2013-09-29T11:51:10.355Z - warn: Worker for port 3002 exited. No restart will be attempted any more.
+2013-09-29T11:51:10.352Z - info: Websocket worker started on 127.0.0.1:3003
+2013-09-29T11:51:10.360Z - warn: Worker for port 3003 exited. No restart will be attempted any more.
+2013-09-29T11:51:10.406Z - info: Websocket worker started on 127.0.0.1:3004
+2013-09-29T11:51:10.412Z - warn: Worker for port 3004 exited. No restart will be attempted any more.
+2013-09-29T11:51:36.285Z - info: Main HTTP server is listening on 127.0.0.1:3000
+2013-09-29T11:51:36.466Z - info: Websocket worker started on 127.0.0.1:3001
+2013-09-29T11:51:36.479Z - warn: Worker for port 3001 exited. Trying to restart 3 times
+2013-09-29T11:51:36.498Z - info: Websocket worker started on 127.0.0.1:3003
+2013-09-29T11:51:36.505Z - warn: Worker for port 3003 exited. Trying to restart 3 times
+2013-09-29T11:51:36.508Z - info: Websocket worker started on 127.0.0.1:3002
+2013-09-29T11:51:36.517Z - warn: Worker for port 3002 exited. Trying to restart 3 times
+2013-09-29T11:51:36.526Z - info: Websocket worker started on 127.0.0.1:3004
+2013-09-29T11:51:36.534Z - warn: Worker for port 3004 exited. Trying to restart 3 times
+2013-09-29T11:52:14.415Z - info: Main HTTP server is listening on 127.0.0.1:3000
+2013-09-29T11:52:14.620Z - info: Websocket worker started on 127.0.0.1:3002
+2013-09-29T11:52:14.632Z - warn: Worker for port 3002 exited. Trying to restart 3 times
+2013-09-29T11:52:14.634Z - info: Websocket worker started on 127.0.0.1:3001
+2013-09-29T11:52:14.640Z - info: Websocket worker started on 127.0.0.1:3003
+2013-09-29T11:52:14.647Z - warn: Worker for port 3001 exited. Trying to restart 3 times
+2013-09-29T11:52:14.650Z - warn: Worker for port 3003 exited. Trying to restart 3 times
+2013-09-29T11:52:14.786Z - info: Websocket worker started on 127.0.0.1:3004
+2013-09-29T11:52:14.804Z - warn: Worker for port 3004 exited. Trying to restart 3 times
+2013-09-29T11:52:14.875Z - info: Websocket worker started on 127.0.0.1:3002
+2013-09-29T11:52:14.884Z - warn: Worker for port 3002 exited. Trying to restart 2 times
+2013-09-29T11:52:14.901Z - info: Websocket worker started on 127.0.0.1:3003
+2013-09-29T11:52:14.903Z - info: Websocket worker started on 127.0.0.1:3001
+2013-09-29T11:52:14.911Z - warn: Worker for port 3001 exited. Trying to restart 2 times
+2013-09-29T11:52:14.914Z - warn: Worker for port 3003 exited. Trying to restart 2 times
+2013-09-29T11:52:15.065Z - info: Websocket worker started on 127.0.0.1:3004
+2013-09-29T11:52:15.079Z - warn: Worker for port 3004 exited. Trying to restart 2 times
+2013-09-29T11:52:15.138Z - info: Websocket worker started on 127.0.0.1:3002
+2013-09-29T11:52:15.147Z - warn: Worker for port 3002 exited. Trying to restart 1 times
+2013-09-29T11:52:15.159Z - info: Websocket worker started on 127.0.0.1:3001
+2013-09-29T11:52:15.171Z - warn: Worker for port 3001 exited. Trying to restart 1 times
+2013-09-29T11:52:15.228Z - info: Websocket worker started on 127.0.0.1:3003
+2013-09-29T11:52:15.244Z - warn: Worker for port 3003 exited. Trying to restart 1 times
+2013-09-29T11:52:15.347Z - info: Websocket worker started on 127.0.0.1:3004
+2013-09-29T11:52:15.359Z - warn: Worker for port 3004 exited. Trying to restart 1 times
+2013-09-29T11:52:15.404Z - info: Websocket worker started on 127.0.0.1:3002
+2013-09-29T11:52:15.420Z - warn: Worker for port 3002 exited. No restart will be attempted any more.
+2013-09-29T11:52:15.420Z - info: Websocket worker started on 127.0.0.1:3001
+2013-09-29T11:52:15.427Z - warn: Worker for port 3001 exited. No restart will be attempted any more.
+2013-09-29T11:52:15.511Z - info: Websocket worker started on 127.0.0.1:3003
+2013-09-29T11:52:15.517Z - warn: Worker for port 3003 exited. No restart will be attempted any more.
+2013-09-29T11:52:15.572Z - info: Websocket worker started on 127.0.0.1:3004
+2013-09-29T11:52:15.581Z - warn: Worker for port 3004 exited. No restart will be attempted any more.
+2013-09-29T11:52:54.306Z - info: Main HTTP server is listening on 127.0.0.1:3000
+2013-09-29T11:52:54.518Z - info: Websocket worker started on 127.0.0.1:3003
+2013-09-29T11:52:54.528Z - warn: Worker for port 3003 exited. Trying to restart 3 times
+2013-09-29T11:52:54.525Z - info: Websocket worker started on 127.0.0.1:3001
+2013-09-29T11:52:54.535Z - warn: Worker for port 3004 exited. Trying to restart 3 times
+2013-09-29T11:52:54.539Z - warn: Worker for port 3001 exited. Trying to restart 3 times
+2013-09-29T11:52:54.542Z - warn: Worker for port 3002 exited. Trying to restart 3 times
+2013-09-29T11:52:54.544Z - warn: Worker for port 3003 exited. Trying to restart 2 times
+2013-09-29T11:52:54.553Z - info: Gracefully shutting down
+2013-09-29T11:52:54.781Z - info: Websocket worker started on 127.0.0.1:3002
+2013-09-29T11:52:54.776Z - info: Websocket worker started on 127.0.0.1:3004
+2013-09-29T11:52:54.792Z - info: Worker for port 3004 exited.
+2013-09-29T11:52:54.795Z - info: Worker for port 3002 exited.
+2013-09-29T11:52:54.810Z - info: Websocket worker started on 127.0.0.1:3003
+2013-09-29T11:52:54.817Z - info: Worker for port 3003 exited.
+2013-09-29T11:52:54.818Z - info: Websocket worker started on 127.0.0.1:3001
+2013-09-29T11:52:54.824Z - info: Worker for port 3001 exited.
+2013-09-29T12:47:09.987Z - info: Main HTTPS server is listening on 127.0.0.1:3000
+2013-09-29T12:47:10.180Z - warn: Worker for port 3001 exited. Trying to restart 3 times
+2013-09-29T12:47:10.205Z - warn: Worker for port 3003 exited. Trying to restart 3 times
+2013-09-29T12:47:10.213Z - warn: Worker for port 3004 exited. Trying to restart 3 times
+2013-09-29T12:47:10.227Z - warn: Worker for port 3002 exited. Trying to restart 3 times
+2013-09-29T12:47:10.451Z - warn: Worker for port 3001 exited. Trying to restart 2 times
+2013-09-29T12:47:10.486Z - warn: Worker for port 3004 exited. Trying to restart 2 times
+2013-09-29T12:47:10.491Z - warn: Worker for port 3002 exited. Trying to restart 2 times
+2013-09-29T12:47:10.552Z - warn: Worker for port 3003 exited. Trying to restart 2 times
+2013-09-29T12:47:10.731Z - warn: Worker for port 3001 exited. Trying to restart 1 times
+2013-09-29T12:47:10.778Z - warn: Worker for port 3004 exited. Trying to restart 1 times
+2013-09-29T12:47:10.813Z - warn: Worker for port 3003 exited. Trying to restart 1 times
+2013-09-29T12:47:10.832Z - warn: Worker for port 3002 exited. Trying to restart 1 times
+2013-09-29T12:47:11.006Z - warn: Worker for port 3001 exited. No restart will be attempted any more.
+2013-09-29T12:47:11.058Z - warn: Worker for port 3004 exited. No restart will be attempted any more.
+2013-09-29T12:47:11.070Z - warn: Worker for port 3003 exited. No restart will be attempted any more.
+2013-09-29T12:47:11.106Z - warn: Worker for port 3002 exited. No restart will be attempted any more.
+2013-09-29T12:51:16.260Z - info: Websocket server listening on 127.0.0.1:3000
+2013-09-29T13:15:13.831Z - info: Main HTTPS server is listening on 127.0.0.1:3000
+2013-09-29T13:15:14.025Z - info: Websocket server listening on 127.0.0.1:3003
+2013-09-29T13:15:14.068Z - info: Websocket server listening on 127.0.0.1:3002
+2013-09-29T13:15:14.068Z - info: Websocket server listening on 127.0.0.1:3004
+2013-09-29T13:15:14.081Z - info: Websocket server listening on 127.0.0.1:3001
+2013-09-29T13:16:49.511Z - info: Gracefully shutting down
+2013-09-29T13:16:49.511Z - info: Gracefully shutting down
+2013-09-29T13:16:49.511Z - info: Gracefully shutting down
+2013-09-29T13:16:49.511Z - info: Gracefully shutting down
+2013-09-29T13:16:49.512Z - info: Gracefully shutting down
+2013-09-29T13:29:44.033Z - info: Started worker for port 3001 with pid 24285
+2013-09-29T13:29:44.038Z - info: Started worker for port 3002 with pid 24291
+2013-09-29T13:29:44.044Z - info: Started worker for port 3003 with pid 24292
+2013-09-29T13:29:44.047Z - info: Started worker for port 3004 with pid 24294
+2013-09-29T13:29:44.105Z - info: Main HTTPS server is listening on 127.0.0.1:3000
+2013-09-29T13:29:44.279Z - info: Websocket server listening on 127.0.0.1:3001
+2013-09-29T13:29:44.300Z - warn: Worker for port 3001 exited. Trying to restart 3 times
+2013-09-29T13:29:44.308Z - info: Started worker for port 3001 with pid 24305
+2013-09-29T13:29:44.294Z - info: Websocket server listening on 127.0.0.1:3002
+2013-09-29T13:29:44.318Z - warn: Worker for port 3002 exited. Trying to restart 3 times
+2013-09-29T13:29:44.326Z - info: Started worker for port 3002 with pid 24307
+2013-09-29T13:29:44.326Z - info: Websocket server listening on 127.0.0.1:3003
+2013-09-29T13:29:44.349Z - warn: Worker for port 3003 exited. Trying to restart 3 times
+2013-09-29T13:29:44.359Z - info: Started worker for port 3003 with pid 24313
+2013-09-29T13:29:44.361Z - info: Websocket server listening on 127.0.0.1:3004
+2013-09-29T13:29:44.384Z - warn: Worker for port 3004 exited. Trying to restart 3 times
+2013-09-29T13:29:44.387Z - info: Started worker for port 3004 with pid 24319
+2013-09-29T13:29:44.568Z - info: Websocket server listening on 127.0.0.1:3001
+2013-09-29T13:29:44.590Z - warn: Worker for port 3001 exited. Trying to restart 2 times
+2013-09-29T13:29:44.596Z - info: Started worker for port 3001 with pid 24325
+2013-09-29T13:29:44.615Z - info: Websocket server listening on 127.0.0.1:3002
+2013-09-29T13:29:44.637Z - warn: Worker for port 3002 exited. Trying to restart 2 times
+2013-09-29T13:29:44.623Z - info: Websocket server listening on 127.0.0.1:3003
+2013-09-29T13:29:44.640Z - info: Started worker for port 3002 with pid 24335
+2013-09-29T13:29:44.642Z - warn: Worker for port 3003 exited. Trying to restart 2 times
+2013-09-29T13:29:44.644Z - info: Started worker for port 3003 with pid 24336
+2013-09-29T13:29:44.658Z - info: Websocket server listening on 127.0.0.1:3004
+2013-09-29T13:29:44.679Z - warn: Worker for port 3004 exited. Trying to restart 2 times
+2013-09-29T13:29:44.686Z - info: Started worker for port 3004 with pid 24343
+2013-09-29T13:29:44.891Z - info: Websocket server listening on 127.0.0.1:3001
+2013-09-29T13:29:44.911Z - warn: Worker for port 3001 exited. Trying to restart 1 times
+2013-09-29T13:29:44.915Z - info: Started worker for port 3001 with pid 24357
+2013-09-29T13:29:44.899Z - info: Websocket server listening on 127.0.0.1:3002
+2013-09-29T13:29:44.912Z - info: Websocket server listening on 127.0.0.1:3003
+2013-09-29T13:29:44.925Z - warn: Worker for port 3002 exited. Trying to restart 1 times
+2013-09-29T13:29:44.929Z - info: Started worker for port 3002 with pid 24359
+2013-09-29T13:29:44.929Z - warn: Worker for port 3003 exited. Trying to restart 1 times
+2013-09-29T13:29:44.936Z - info: Started worker for port 3003 with pid 24360
+2013-09-29T13:29:44.943Z - info: Websocket server listening on 127.0.0.1:3004
+2013-09-29T13:29:44.964Z - warn: Worker for port 3004 exited. Trying to restart 1 times
+2013-09-29T13:29:44.972Z - info: Started worker for port 3004 with pid 24367
+2013-09-29T13:29:45.191Z - info: Websocket server listening on 127.0.0.1:3003
+2013-09-29T13:29:45.191Z - info: Websocket server listening on 127.0.0.1:3001
+2013-09-29T13:29:45.212Z - warn: Worker for port 3003 exited. No restart will be attempted any more.
+2013-09-29T13:29:45.212Z - warn: Worker for port 3001 exited. No restart will be attempted any more.
+2013-09-29T13:29:45.196Z - info: Websocket server listening on 127.0.0.1:3002
+2013-09-29T13:29:45.216Z - warn: Worker for port 3002 exited. No restart will be attempted any more.
+2013-09-29T13:29:45.224Z - info: Websocket server listening on 127.0.0.1:3004
+2013-09-29T13:29:45.239Z - warn: Worker for port 3004 exited. No restart will be attempted any more.
+2013-09-29T13:30:01.958Z - info: Started worker for port 3001 with pid 24407
+2013-09-29T13:30:01.961Z - info: Started worker for port 3002 with pid 24413
+2013-09-29T13:30:01.965Z - info: Started worker for port 3003 with pid 24414
+2013-09-29T13:30:01.974Z - info: Started worker for port 3004 with pid 24416
+2013-09-29T13:30:02.006Z - info: Main HTTPS server is listening on 127.0.0.1:3000
+2013-09-29T13:30:02.223Z - info: Websocket server listening on 127.0.0.1:3002
+2013-09-29T13:30:02.244Z - warn: Worker for port 3002 exited. Trying to restart 3 times
+2013-09-29T13:30:02.246Z - info: Started worker for port 3002 with pid 24423
+2013-09-29T13:30:02.276Z - info: Websocket server listening on 127.0.0.1:3003
+2013-09-29T13:30:02.298Z - warn: Worker for port 3003 exited. Trying to restart 3 times
+2013-09-29T13:30:02.301Z - info: Started worker for port 3003 with pid 24437
+2013-09-29T13:30:02.285Z - info: Websocket server listening on 127.0.0.1:3001
+2013-09-29T13:30:02.289Z - info: Websocket server listening on 127.0.0.1:3004
+2013-09-29T13:30:02.310Z - warn: Worker for port 3001 exited. Trying to restart 3 times
+2013-09-29T13:30:02.312Z - info: Started worker for port 3001 with pid 24439
+2013-09-29T13:30:02.312Z - warn: Worker for port 3004 exited. Trying to restart 3 times
+2013-09-29T13:30:02.315Z - info: Started worker for port 3004 with pid 24440
+2013-09-29T13:30:02.524Z - info: Websocket server listening on 127.0.0.1:3002
+2013-09-29T13:30:02.546Z - warn: Worker for port 3002 exited. Trying to restart 2 times
+2013-09-29T13:30:02.555Z - info: Started worker for port 3002 with pid 24447
+2013-09-29T13:30:02.565Z - info: Websocket server listening on 127.0.0.1:3003
+2013-09-29T13:30:02.570Z - info: Websocket server listening on 127.0.0.1:3001
+2013-09-29T13:30:02.593Z - warn: Worker for port 3003 exited. Trying to restart 2 times
+2013-09-29T13:30:02.596Z - info: Started worker for port 3003 with pid 24457
+2013-09-29T13:30:02.596Z - warn: Worker for port 3001 exited. Trying to restart 2 times
+2013-09-29T13:30:02.599Z - info: Started worker for port 3001 with pid 24458
+2013-09-29T13:30:02.667Z - info: Websocket server listening on 127.0.0.1:3004
+2013-09-29T13:30:02.690Z - warn: Worker for port 3004 exited. Trying to restart 2 times
+2013-09-29T13:30:02.696Z - info: Started worker for port 3004 with pid 24465
+2013-09-29T13:30:02.841Z - info: Websocket server listening on 127.0.0.1:3002
+2013-09-29T13:30:02.878Z - warn: Worker for port 3002 exited. Trying to restart 1 times
+2013-09-29T13:30:02.883Z - info: Started worker for port 3002 with pid 24471
+2013-09-29T13:30:02.882Z - info: Websocket server listening on 127.0.0.1:3001
+2013-09-29T13:30:02.907Z - warn: Worker for port 3001 exited. Trying to restart 1 times
+2013-09-29T13:30:02.886Z - info: Websocket server listening on 127.0.0.1:3003
+2013-09-29T13:30:02.913Z - info: Started worker for port 3001 with pid 24481
+2013-09-29T13:30:02.917Z - warn: Worker for port 3003 exited. Trying to restart 1 times
+2013-09-29T13:30:02.919Z - info: Started worker for port 3003 with pid 24483
+2013-09-29T13:30:03.028Z - info: Websocket server listening on 127.0.0.1:3004
+2013-09-29T13:30:03.057Z - warn: Worker for port 3004 exited. Trying to restart 1 times
+2013-09-29T13:30:03.078Z - info: Started worker for port 3004 with pid 24489
+2013-09-29T13:30:03.153Z - info: Websocket server listening on 127.0.0.1:3002
+2013-09-29T13:30:03.175Z - warn: Worker for port 3002 exited. No restart will be attempted any more.
+2013-09-29T13:30:03.197Z - info: Websocket server listening on 127.0.0.1:3003
+2013-09-29T13:30:03.204Z - info: Websocket server listening on 127.0.0.1:3001
+2013-09-29T13:30:03.218Z - warn: Worker for port 3003 exited. No restart will be attempted any more.
+2013-09-29T13:30:03.219Z - warn: Worker for port 3001 exited. No restart will be attempted any more.
+2013-09-29T13:30:03.307Z - info: Websocket server listening on 127.0.0.1:3004
+2013-09-29T13:30:03.322Z - warn: Worker for port 3004 exited. No restart will be attempted any more.
+2013-09-29T13:31:39.699Z - info: Forking...
+2013-09-29T13:31:39.705Z - info: Started worker for port 3001 with pid 24578
+2013-09-29T13:31:39.706Z - info: Forking...
+2013-09-29T13:31:39.710Z - info: Started worker for port 3002 with pid 24580
+2013-09-29T13:31:39.710Z - info: Forking...
+2013-09-29T13:31:39.713Z - info: Started worker for port 3003 with pid 24581
+2013-09-29T13:31:39.713Z - info: Forking...
+2013-09-29T13:31:39.717Z - info: Started worker for port 3004 with pid 24583
+2013-09-29T13:31:39.773Z - info: Main HTTPS server is listening on 127.0.0.1:3000
+2013-09-29T13:31:39.965Z - info: Websocket server listening on 127.0.0.1:3002
+2013-09-29T13:31:39.981Z - warn: Worker for port 3002 exited. Trying to restart 3 times
+2013-09-29T13:31:39.981Z - info: Forking...
+2013-09-29T13:31:39.984Z - info: Started worker for port 3002 with pid 24590
+2013-09-29T13:31:39.987Z - info: Websocket server listening on 127.0.0.1:3004
+2013-09-29T13:31:40.009Z - warn: Worker for port 3004 exited. Trying to restart 3 times
+2013-09-29T13:31:40.009Z - info: Forking...
+2013-09-29T13:31:40.019Z - info: Started worker for port 3004 with pid 24596
+2013-09-29T13:31:40.080Z - info: Websocket server listening on 127.0.0.1:3001
+2013-09-29T13:31:40.102Z - warn: Worker for port 3001 exited. Trying to restart 3 times
+2013-09-29T13:31:40.102Z - info: Forking...
+2013-09-29T13:31:40.105Z - info: Started worker for port 3001 with pid 24602
+2013-09-29T13:31:40.103Z - info: Websocket server listening on 127.0.0.1:3003
+2013-09-29T13:31:40.127Z - warn: Worker for port 3003 exited. Trying to restart 3 times
+2013-09-29T13:31:40.127Z - info: Forking...
+2013-09-29T13:31:40.131Z - info: Started worker for port 3003 with pid 24608
+2013-09-29T13:31:40.277Z - info: Websocket server listening on 127.0.0.1:3002
+2013-09-29T13:31:40.288Z - info: Websocket server listening on 127.0.0.1:3004
+2013-09-29T13:31:40.307Z - warn: Worker for port 3002 exited. Trying to restart 2 times
+2013-09-29T13:31:40.308Z - info: Forking...
+2013-09-29T13:31:40.311Z - info: Started worker for port 3002 with pid 24618
+2013-09-29T13:31:40.315Z - warn: Worker for port 3004 exited. Trying to restart 2 times
+2013-09-29T13:31:40.315Z - info: Forking...
+2013-09-29T13:31:40.323Z - info: Started worker for port 3004 with pid 24619
+2013-09-29T13:31:40.379Z - info: Websocket server listening on 127.0.0.1:3001
+2013-09-29T13:31:40.401Z - warn: Worker for port 3001 exited. Trying to restart 2 times
+2013-09-29T13:31:40.401Z - info: Forking...
+2013-09-29T13:31:40.407Z - info: Started worker for port 3001 with pid 24626
+2013-09-29T13:31:40.500Z - info: Websocket server listening on 127.0.0.1:3003
+2013-09-29T13:31:40.547Z - warn: Worker for port 3003 exited. Trying to restart 2 times
+2013-09-29T13:31:40.547Z - info: Forking...
+2013-09-29T13:31:40.553Z - info: Started worker for port 3003 with pid 24632
+2013-09-29T13:31:40.577Z - info: Websocket server listening on 127.0.0.1:3002
+2013-09-29T13:31:40.600Z - warn: Worker for port 3002 exited. Trying to restart 1 times
+2013-09-29T13:31:40.601Z - info: Forking...
+2013-09-29T13:31:40.612Z - info: Started worker for port 3002 with pid 24642
+2013-09-29T13:31:40.598Z - info: Websocket server listening on 127.0.0.1:3004
+2013-09-29T13:31:40.620Z - warn: Worker for port 3004 exited. Trying to restart 1 times
+2013-09-29T13:31:40.621Z - info: Forking...
+2013-09-29T13:31:40.635Z - info: Started worker for port 3004 with pid 24644
+2013-09-29T13:31:40.669Z - info: Websocket server listening on 127.0.0.1:3001
+2013-09-29T13:31:40.690Z - warn: Worker for port 3001 exited. Trying to restart 1 times
+2013-09-29T13:31:40.690Z - info: Forking...
+2013-09-29T13:31:40.703Z - info: Started worker for port 3001 with pid 24650
+2013-09-29T13:31:40.888Z - info: Websocket server listening on 127.0.0.1:3004
+2013-09-29T13:31:40.911Z - warn: Worker for port 3004 exited. No restart will be attempted any more.
+2013-09-29T13:31:40.920Z - info: Websocket server listening on 127.0.0.1:3003
+2013-09-29T13:31:40.942Z - warn: Worker for port 3003 exited. Trying to restart 1 times
+2013-09-29T13:31:40.942Z - info: Forking...
+2013-09-29T13:31:40.945Z - info: Started worker for port 3003 with pid 24660
+2013-09-29T13:31:40.946Z - info: Websocket server listening on 127.0.0.1:3002
+2013-09-29T13:31:40.972Z - warn: Worker for port 3002 exited. No restart will be attempted any more.
+2013-09-29T13:31:40.984Z - info: Websocket server listening on 127.0.0.1:3001
+2013-09-29T13:31:41.005Z - warn: Worker for port 3001 exited. No restart will be attempted any more.
+2013-09-29T13:31:41.131Z - info: Websocket server listening on 127.0.0.1:3003
+2013-09-29T13:31:41.145Z - warn: Worker for port 3003 exited. No restart will be attempted any more.
+2013-09-29T13:34:16.382Z - info: Forking...
+2013-09-29T13:34:16.387Z - info: Started worker for port 3001 with pid 24760
+2013-09-29T13:34:16.387Z - info: Forking...
+2013-09-29T13:34:16.391Z - info: Started worker for port 3002 with pid 24762
+2013-09-29T13:34:16.392Z - info: Forking...
+2013-09-29T13:34:16.396Z - info: Started worker for port 3003 with pid 24764
+2013-09-29T13:34:16.396Z - info: Forking...
+2013-09-29T13:34:16.399Z - info: Started worker for port 3004 with pid 24765
+2013-09-29T13:34:16.451Z - info: Main HTTPS server is listening on 127.0.0.1:3000
+2013-09-29T13:34:16.652Z - info: Websocket server listening on 127.0.0.1:3001
+2013-09-29T13:34:16.652Z - info: Websocket server listening on 127.0.0.1:3002
+2013-09-29T13:34:16.684Z - info: Websocket server listening on 127.0.0.1:3004
+2013-09-29T13:34:16.741Z - info: Websocket server listening on 127.0.0.1:3003
+2013-09-29T13:34:30.057Z - info: Gracefully shutting down, forcefully shutting down in 20 sec
+2013-09-29T13:34:30.057Z - info: Gracefully shutting down, forcefully shutting down in 20 sec
+2013-09-29T13:34:30.057Z - info: Gracefully shutting down, forcefully shutting down in 20 sec
+2013-09-29T13:34:30.059Z - info: Gracefully shutting down
+2013-09-29T13:34:30.060Z - info: Gracefully shutting down, forcefully shutting down in 20 sec
+2013-09-29T13:34:50.069Z - info: Still 0 clients connected. Shutting down anyway.
+2013-09-29T13:34:50.075Z - info: Worker for port 3001 exited.
+2013-09-29T13:34:50.076Z - info: Still 0 clients connected. Shutting down anyway.
+2013-09-29T13:34:50.077Z - info: Still 0 clients connected. Shutting down anyway.
+2013-09-29T13:34:50.079Z - info: Still 0 clients connected. Shutting down anyway.
+2013-09-29T13:34:50.083Z - info: Worker for port 3002 exited.
+2013-09-29T13:34:50.083Z - info: Worker for port 3004 exited.
+2013-09-29T13:34:50.087Z - info: Worker for port 3003 exited.
+2013-09-29T13:37:32.615Z - info: Forking...
+2013-09-29T13:37:32.621Z - info: Started worker for port 3001 with pid 25052
+2013-09-29T13:37:32.621Z - info: Forking...
+2013-09-29T13:37:32.627Z - info: Started worker for port 3002 with pid 25054
+2013-09-29T13:37:32.628Z - info: Forking...
+2013-09-29T13:37:32.630Z - info: Started worker for port 3003 with pid 25056
+2013-09-29T13:37:32.631Z - info: Forking...
+2013-09-29T13:37:32.633Z - info: Started worker for port 3004 with pid 25057
+2013-09-29T13:37:32.681Z - info: Main HTTPS server is listening on 127.0.0.1:3000
+2013-09-29T13:37:32.890Z - info: Websocket server listening on 127.0.0.1:3002
+2013-09-29T13:37:32.906Z - info: Websocket server listening on 127.0.0.1:3001
+2013-09-29T13:37:32.938Z - info: Websocket server listening on 127.0.0.1:3004
+2013-09-29T13:37:32.944Z - info: Websocket server listening on 127.0.0.1:3003
+2013-09-29T13:37:49.647Z - info: Websocket server listening on 127.0.0.1:3000
+2013-09-29T13:37:54.309Z - info: No connections open. Bye!
+2013-09-29T13:37:59.517Z - info: Started worker for port 3001 with pid 25137
+2013-09-29T13:37:59.520Z - info: Started worker for port 3002 with pid 25143
+2013-09-29T13:37:59.523Z - info: Started worker for port 3003 with pid 25144
+2013-09-29T13:37:59.531Z - info: Started worker for port 3004 with pid 25146
+2013-09-29T13:37:59.583Z - info: Main HTTPS server is listening on 127.0.0.1:3000
+2013-09-29T13:37:59.782Z - info: Websocket server listening on 127.0.0.1:3002
+2013-09-29T13:37:59.799Z - info: Websocket server listening on 127.0.0.1:3001
+2013-09-29T13:37:59.828Z - info: Websocket server listening on 127.0.0.1:3004
+2013-09-29T13:37:59.859Z - info: Websocket server listening on 127.0.0.1:3003
+2013-09-29T13:38:02.676Z - info: Gracefully shutting down
+2013-09-29T13:38:02.676Z - info: No connections open. Bye!
+2013-09-29T13:38:02.677Z - info: No connections open. Bye!
+2013-09-29T13:38:02.676Z - info: No connections open. Bye!
+2013-09-29T13:38:02.683Z - info: No connections open. Bye!
+2013-09-29T13:38:02.687Z - info: Worker for port 3001 exited.
+2013-09-29T13:38:02.688Z - info: Worker for port 3002 exited.
+2013-09-29T13:38:02.689Z - info: Worker for port 3004 exited.
+2013-09-29T13:38:02.689Z - info: Worker for port 3003 exited.
+2013-09-29T13:38:50.026Z - info: Started worker for port 3001 with pid 25207
+2013-09-29T13:38:50.029Z - info: Started worker for port 3002 with pid 25213
+2013-09-29T13:38:50.038Z - info: Started worker for port 3003 with pid 25214
+2013-09-29T13:38:50.041Z - info: Started worker for port 3004 with pid 25216
+2013-09-29T13:38:50.102Z - info: Main HTTPS server is listening on 127.0.0.1:3000
+2013-09-29T13:38:50.289Z - info: Websocket server listening on 127.0.0.1:3002
+2013-09-29T13:38:50.311Z - info: Websocket server listening on 127.0.0.1:3003
+2013-09-29T13:38:50.349Z - info: Websocket server listening on 127.0.0.1:3004
+2013-09-29T13:38:50.362Z - info: Websocket server listening on 127.0.0.1:3001
+2013-09-29T13:44:42.707Z - info: No connections open. Bye!
+2013-09-29T13:44:42.708Z - info: No connections open. Bye!
+2013-09-29T13:44:42.709Z - info: No connections open. Bye!
+2013-09-29T13:44:42.707Z - info: No connections open. Bye!
+2013-09-29T13:44:42.714Z - info: Gracefully shutting down
+2013-09-29T13:44:42.714Z - info: Worker for port 3001 exited.
+2013-09-29T13:44:42.715Z - info: Worker for port 3002 exited.
+2013-09-29T13:44:42.715Z - info: Worker for port 3003 exited.
+2013-09-29T13:44:42.716Z - info: Worker for port 3004 exited.
+2013-09-29T13:44:46.856Z - info: Started worker for port 3001 with pid 25448
+2013-09-29T13:44:46.859Z - info: Started worker for port 3002 with pid 25454
+2013-09-29T13:44:46.862Z - info: Started worker for port 3003 with pid 25455
+2013-09-29T13:44:46.866Z - info: Started worker for port 3004 with pid 25457
+2013-09-29T13:44:46.939Z - info: Main HTTPS server is listening on 127.0.0.1:3000
+2013-09-29T13:44:47.108Z - warn: Worker for port 3001 exited. Trying to restart 3 times
+2013-09-29T13:44:47.111Z - info: Started worker for port 3001 with pid 25470
+2013-09-29T13:44:47.112Z - warn: Worker for port 3002 exited. Trying to restart 3 times
+2013-09-29T13:44:47.115Z - info: Started worker for port 3002 with pid 25475
+2013-09-29T13:44:47.118Z - warn: Worker for port 3003 exited. Trying to restart 3 times
+2013-09-29T13:44:47.122Z - info: Started worker for port 3003 with pid 25477
+2013-09-29T13:44:47.171Z - warn: Worker for port 3004 exited. Trying to restart 3 times
+2013-09-29T13:44:47.174Z - info: Started worker for port 3004 with pid 25484
+2013-09-29T13:44:47.364Z - warn: Worker for port 3001 exited. Trying to restart 2 times
+2013-09-29T13:44:47.368Z - info: Started worker for port 3001 with pid 25494
+2013-09-29T13:44:47.369Z - warn: Worker for port 3002 exited. Trying to restart 2 times
+2013-09-29T13:44:47.371Z - info: Started worker for port 3002 with pid 25495
+2013-09-29T13:44:47.391Z - warn: Worker for port 3003 exited. Trying to restart 2 times
+2013-09-29T13:44:47.397Z - info: Started worker for port 3003 with pid 25502
+2013-09-29T13:44:47.469Z - warn: Worker for port 3004 exited. Trying to restart 2 times
+2013-09-29T13:44:47.477Z - info: Started worker for port 3004 with pid 25508
+2013-09-29T13:44:47.612Z - warn: Worker for port 3002 exited. Trying to restart 1 times
+2013-09-29T13:44:47.615Z - info: Started worker for port 3002 with pid 25514
+2013-09-29T13:44:47.623Z - warn: Worker for port 3001 exited. Trying to restart 1 times
+2013-09-29T13:44:47.627Z - info: Started worker for port 3001 with pid 25520
+2013-09-29T13:44:47.659Z - warn: Worker for port 3003 exited. Trying to restart 1 times
+2013-09-29T13:44:47.663Z - info: Started worker for port 3003 with pid 25526
+2013-09-29T13:44:47.748Z - warn: Worker for port 3004 exited. Trying to restart 1 times
+2013-09-29T13:44:47.755Z - info: Started worker for port 3004 with pid 25532
+2013-09-29T13:44:47.871Z - warn: Worker for port 3002 exited. No restart will be attempted any more.
+2013-09-29T13:44:47.892Z - warn: Worker for port 3003 exited. No restart will be attempted any more.
+2013-09-29T13:44:47.932Z - warn: Worker for port 3001 exited. No restart will be attempted any more.
+2013-09-29T13:44:48.001Z - warn: Worker for port 3004 exited. No restart will be attempted any more.
+2013-09-29T13:46:16.503Z - info: Started worker for port 3001 with pid 25671
+2013-09-29T13:46:16.507Z - info: Started worker for port 3002 with pid 25677
+2013-09-29T13:46:16.510Z - info: Started worker for port 3003 with pid 25679
+2013-09-29T13:46:16.512Z - info: Started worker for port 3004 with pid 25680
+2013-09-29T13:46:16.566Z - info: Main HTTPS server is listening on 127.0.0.1:3000
+2013-09-29T13:46:16.769Z - info: Websocket server listening on 127.0.0.1:3001
+2013-09-29T13:46:16.808Z - info: Websocket server listening on 127.0.0.1:3002
+2013-09-29T13:46:16.807Z - info: Websocket server listening on 127.0.0.1:3003
+2013-09-29T13:46:16.824Z - info: Websocket server listening on 127.0.0.1:3004
+2013-09-29T13:46:22.257Z - info: No connections open. Bye!
+2013-09-29T13:46:22.257Z - info: No connections open. Bye!
+2013-09-29T13:46:22.257Z - info: No connections open. Bye!
+2013-09-29T13:46:22.257Z - info: No connections open. Bye!
+2013-09-29T13:46:22.259Z - info: Gracefully shutting down
+2013-09-29T13:46:22.267Z - info: Worker for port 3002 exited.
+2013-09-29T13:46:22.267Z - info: Worker for port 3003 exited.
+2013-09-29T13:46:22.267Z - info: Worker for port 3004 exited.
+2013-09-29T13:46:22.268Z - info: Worker for port 3001 exited.
+2013-09-29T13:46:24.495Z - info: Started worker for port 3001 with pid 25726
+2013-09-29T13:46:24.498Z - info: Started worker for port 3002 with pid 25732
+2013-09-29T13:46:24.502Z - info: Started worker for port 3003 with pid 25733
+2013-09-29T13:46:24.504Z - info: Started worker for port 3004 with pid 25735
+2013-09-29T13:46:24.537Z - info: Main HTTPS server is listening on 127.0.0.1:3000
+2013-09-29T13:46:24.742Z - info: Websocket server listening on 127.0.0.1:3001
+2013-09-29T13:46:24.762Z - info: Websocket server listening on 127.0.0.1:3004
+2013-09-29T13:46:24.786Z - info: Websocket server listening on 127.0.0.1:3003
+2013-09-29T13:46:24.817Z - info: Websocket server listening on 127.0.0.1:3002
+2013-09-29T13:48:31.227Z - info: No connections open. Bye!
+2013-09-29T13:48:31.227Z - info: No connections open. Bye!
+2013-09-29T13:48:31.227Z - info: No connections open. Bye!
+2013-09-29T13:48:31.228Z - info: No connections open. Bye!
+2013-09-29T13:48:31.231Z - info: Gracefully shutting down
+2013-09-29T13:48:31.238Z - info: Worker for port 3001 exited.
+2013-09-29T13:48:32.761Z - info: Started worker for port 3001 with pid 25930
+2013-09-29T13:48:32.765Z - info: Started worker for port 3002 with pid 25936
+2013-09-29T13:48:32.774Z - info: Started worker for port 3003 with pid 25937
+2013-09-29T13:48:32.786Z - info: Started worker for port 3004 with pid 25939
+2013-09-29T13:48:32.837Z - info: Main HTTPS server is listening on 127.0.0.1:3000
+2013-09-29T13:48:33.046Z - info: Websocket server listening on 127.0.0.1:3001
+2013-09-29T13:48:33.053Z - info: Websocket server listening on 127.0.0.1:3003
+2013-09-29T13:48:33.090Z - info: Websocket server listening on 127.0.0.1:3002
+2013-09-29T13:48:33.103Z - info: Websocket server listening on 127.0.0.1:3004
+2013-09-29T14:10:58.086Z - info: No connections open. Bye!
+2013-09-29T14:10:58.087Z - info: No connections open. Bye!
+2013-09-29T14:10:58.087Z - info: No connections open. Bye!
+2013-09-29T14:10:58.088Z - info: Gracefully shutting down
+2013-09-29T14:10:58.086Z - info: No connections open. Bye!
+2013-09-29T14:10:58.094Z - info: Worker for port 3004 exited.
+2013-09-29T14:10:58.096Z - info: Worker for port 3002 exited.
+2013-09-29T14:10:58.098Z - info: Worker for port 3001 exited.

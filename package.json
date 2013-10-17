@@ -11,10 +11,10 @@
     } 
   ],
   "bin": {
-    "rohrpost": "./bin/rohrpost.js"
+    "rohrpost": "./lib/app.js"
   },
   "scripts": {
-  	"start": "node ./bin/rohrpost.js"
+  	"start": "./lib/app.js",
     "test": "mocha --recursive ./lib "
   },
   "repository": {
@@ -29,11 +29,16 @@
     "redis"
   ],
   "dependencies" : {
-    "sockjs"   :  "0.3.7"
+    "sockjs": "0.3.7",
+    "express": "3.4.0",
+    "winston": "0.7.2",
+    "underscore": "1.5.2"
   },
-  "analyze": false,
   "devDependencies": {
-    "mocha":  "1.13.0"
+    "mocha":  "1.13.0",
+    "chai": "1.7.2",
+    "sinon": "1.7.3",
+    "request": "2.27.0"
   },
   "license": "MIT",
   "engines": {
