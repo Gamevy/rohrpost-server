@@ -1,7 +1,7 @@
 module.exports = {
 	/* This is the list of redis topics every client will be allowed to receive after connection */
 	"defaultWhitelist": [
-		"user.req.login"
+		"anonym.*"
 	],
 
 	/* http server config */
@@ -34,7 +34,7 @@ module.exports = {
 
 	/* You can use different redis instances for storage and pubsub, but it's not a requirement */
 	"redis":{
-		"connectionData": {
+		"sessionStore": {
 			"host": "127.0.0.1",
 			"port": 6379
 		},

@@ -9,6 +9,13 @@
         var backoffIntervalStop = 60000;
         var backoffInterval = backoffIntervalInitial;
 
+        var closing = false;
+        var open = false;
+        var openEventHasBeenEmitted = false;
+
+        // Create a random sessionId
+        var sessionId = Math.random().toString(36).substr(2);
+
         var sockjs;
 
         // This will be used whilst a reconnect or similar is going on.
@@ -29,13 +36,21 @@
                 'topic': topic,
                 'data': data
             };
-            if (sockjs && sockjs.readyState == SockJS.OPEN) {
+            if (open) {
                 send(payload);
             } else {
                 messageQueue.push(payload);
             }
-            sockjs
         };
+
+        that.close = function() {
+            closing = true;
+            sockjs.close();
+        }
+
+        that.log = function(level, message) {
+            console.log('[' + level + ']', message);
+        }
 
         /*******************
          * Private methods
@@ -47,11 +62,11 @@
          * then tries to connect via SockJS. Should something go wrong,
          * try again.
          */
-        function connect(onOpen) {
+        function connect() {
             ajax(connectionUrl, function(err, sockjsUrl) {
                 if (err) {
                     if (err.status == 404 || err.status == 0) {
-                        reconnectAfterError(onOpen);
+                        reconnectAfterError();
                     } else {
                         console.error('uncaught error', err);
                     }
@@ -63,9 +78,10 @@
                 }
                 sockjs = new SockJS(sockjsUrl);
                 sockjs.onopen = function() {
+                    console.log(sessionId);
+                    sockjs.send(sessionId);
                     // Reset backoff interval
                     backoffInterval = backoffIntervalInitial;
-                    onOpen();
                 }
                 sockjs.onmessage = sockjsOnMessage;
                 sockjs.onclose = sockjsOnClose;
@@ -126,6 +142,12 @@
          * unnecessarily.
          */
         function sockjsOnClose(e) {
+            open = false;
+
+            if (closing) {
+                that.log('debug', 'Closed connection');
+                return;
+            }
             if (e.code == 100) {
                 // The client is asked to reconnect.
                 connect(sockjsOnReconnect);
@@ -144,7 +166,25 @@
          * We need to unwrap and emit it.
          */
         function sockjsOnMessage(message) {
-            console.log('message', message.data);
+            var data = message.data;
+            that.log('debug', 'received message: ' + data);
+            if (!open) {
+                if (data == 'ok:' + sessionId) {
+                    open = true;
+                    flushMessageQueue();
+
+                    // only emit 'open' once
+                    if (!openEventHasBeenEmitted) {
+                        openEventHasBeenEmitted = true;
+                        that.emit('open');
+                    }
+                } else {
+                    that.log('error', 'Handshake was not successful (' + data + ' != ok:' + sessionId + ')');
+                }
+            } else {
+                // something here
+            }
+
         }
 
         /**
@@ -160,7 +200,7 @@
         /***************
          * Constructor
          ***************/
-        connect(sockjsOnOpenFirstTime);
+        connect();
     }
 
 
