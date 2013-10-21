@@ -1,6 +1,7 @@
 describe('Rohrpost', function() {
 
     var rohrpost;
+    var assert = chai.assert;
 
     afterEach(function() {
         rohrpost.close();

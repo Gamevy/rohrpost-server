@@ -6,7 +6,7 @@
 var redis = require('redis');
 
 var port = 6379;
-var host = 127.0.0.1;
+var host = '127.0.0.1';
 
 // To allow both sending and receiving we have to open two clients
 var emitter = redis.createClient(port, host);
@@ -22,10 +22,11 @@ receiver.on('pmessage', function (pattern, channel, payloadAsString) {
     // This is a simple ping topic that echos all the data to
     // a topic called pong
     if (pattern == 'anonym.ping') {
+        console.log('received ping:', data);
         var responsePayload = { data: data };
         emitter.publish('anonym.pong', JSON.stringify(responsePayload));
     }
 });
 
 // subscribe to some events
-this.receiver.psubscribe('anonym.ping');
+receiver.psubscribe('anonym.ping');

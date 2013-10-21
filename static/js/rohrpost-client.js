@@ -182,7 +182,8 @@
                     that.log('error', 'Handshake was not successful (' + data + ' != ok:' + sessionId + ')');
                 }
             } else {
-                // something here
+                var payload = JSON.parse(data);
+                that.emit(payload.topic, payload.data);
             }
 
         }
