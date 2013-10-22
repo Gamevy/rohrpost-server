@@ -51,12 +51,44 @@ describe('Rohrpost', function() {
     it('can get whitelisted for topics if the backend allows us to do so', function(done) {
         rohrpost = new Rohrpost({"connectionUrl": connectionUrl});
         rohrpost.on('members.welcome', function() {
-            console.log('here');
             rohrpost.on('members.pong', function() {
                 done()
             });
             rohrpost.publish('members.ping', {});
         });
         rohrpost.publish('anonym.members.login', {"username": "foo", "password": "bar"});
+    });
+
+    it('works for topics that are internally handled as http requests', function(done) {
+        rohrpost = new Rohrpost({"connectionUrl": connectionUrl});
+        rohrpost.on('anonym.http.pong', function(data) {
+            assert.deepEqual(data, {"foo": "bar"});
+            done();
+        });
+        rohrpost.publish('anonym.http.ping', {"foo": "bar"});
+    });
+
+    it('allows whitelists to be changed via http endpoint', function(done) {
+        rohrpost = new Rohrpost({"connectionUrl": connectionUrl});
+        rohrpost.on('members.welcome', function() {
+            rohrpost.on('members.pong', function() {
+                done()
+            });
+            rohrpost.publish('members.ping', {});
+        });
+        rohrpost.publish('anonym.http.login', {"foo": "bar"});
+    });
+
+    it('allows topics to be removed from whitelists', function(done) {
+        rohrpost = new Rohrpost({"connectionUrl": connectionUrl});
+        rohrpost.on('members.welcome', function() {
+            rohrpost.publish('members.http.logout', {});
+            rohrpost.on('anonym.members.logout.success', function() {
+                rohrpost.on('members.pong', assert.fail);
+                rohrpost.publish('members.ping', {});
+                done();
+            });
+        });
+        rohrpost.publish('anonym.http.login', {});
     });
 });

@@ -61,7 +61,7 @@ receiver.on('pmessage', function (pattern, channel, payloadAsString) {
 
 // We can also route some messages via http -
 var app = express();
-app.use(express.bodyParser());
+app.use(express.json());
 
 // This is how a ping would look like in http
 app.post('/anonym.http.ping', function(req, res) {
@@ -69,13 +69,13 @@ app.post('/anonym.http.ping', function(req, res) {
     var data = payload.data;
     console.log('anonym.http.ping:', data);
     res.send({
-        data: data
+        data: data,
         topic: 'anonym.http.pong'
     })
 });
 
 // This is how the login would look like in http
-app.post('/members.http.login', function(req, res) {
+app.post('/anonym.http.login', function(req, res) {
     var payload = req.body;
     var data = payload.data;
     console.log('member login via http:', data);
@@ -92,7 +92,9 @@ app.post('/members.http.logout', function(req, res) {
     var data = payload.data;
     console.log('member logout via http:', data);
     res.send({
-        remove: ['members.*']
+        remove: ['members.*'],
+        data: null,
+        topic: 'anonym.members.logout.success'
     });
 });
 
