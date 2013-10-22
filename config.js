@@ -4,7 +4,19 @@ module.exports = {
 		"anonym.*"
 	],
 
-	/* http server config */
+	/* Some topics have more of a req/res nature and are better served by http from the backend. */
+	"httpTopics": {
+		"anonym.http.*": {
+			host: 'localhost',
+			port: 97354
+		},
+		"members.http.*": {
+			host: 'localhost',
+			port: 97354
+		}
+	},
+
+	/* front-facing http server config */
 	"http": {
 		/* You should only use this for development. Set to false in production and host files somewhere else */
 		"static": __dirname + "/static",

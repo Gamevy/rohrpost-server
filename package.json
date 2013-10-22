@@ -33,13 +33,14 @@
     "express": "3.4.0",
     "winston": "0.7.2",
     "underscore": "1.5.2",
-    "redis": "0.8.4"
+    "redis": "0.8.4",
+    "request": "2.27.0"
   },
   "devDependencies": {
     "mocha":  "1.13.0",
     "chai": "1.7.2",
     "sinon": "1.7.3",
-    "request": "2.27.0"
+    "express": "3.4.2"
   },
   "license": "MIT",
   "engines": {
