@@ -15,7 +15,8 @@
   },
   "scripts": {
   	"start": "./lib/app.js",
-    "test": "mocha test -R tap --recursive --check-leaks"
+    "test": "mocha test -R tap --recursive --check-leaks",
+    "install": "./scripts/install.sh"
   },
   "repository": {
     "type": "git",
