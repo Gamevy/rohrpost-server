@@ -35,7 +35,8 @@
     "winston": "0.7.2",
     "underscore": "1.5.2",
     "redis": "0.8.4",
-    "request": "2.27.0"
+    "request": "2.27.0",
+    "redis-pubsub-emitter": "0.0.1"
   },
   "devDependencies": {
     "mocha":  "1.13.0",

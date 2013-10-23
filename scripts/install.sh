@@ -1,6 +1,6 @@
 #!/bin/bash
 
-useradd -r rohrpost
+useradd -r rohrpost || :
 mkdir /var/log/rohrpost || :
 mkdir /etc/rohrpost || :
 cp -r config/* /etc/rohrpost/ || :
