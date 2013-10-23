@@ -14,8 +14,8 @@ describe('HttpServer', function(){
                 static: __dirname + "/data",
                 https: false,
                 httpsOptions: {
-                    key: require('fs').readFileSync(__dirname + "/../keys/key.pem"),
-                    cert: require('fs').readFileSync(__dirname + "/../keys/cert.pem")
+                    key: require('fs').readFileSync(__dirname + "/../config/keys/key.pem"),
+                    cert: require('fs').readFileSync(__dirname + "/../config/keys/cert.pem")
                 },
                 host: "127.0.0.1",
                 mainPort: 7680,
