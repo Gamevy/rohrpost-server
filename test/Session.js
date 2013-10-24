@@ -82,4 +82,33 @@ describe('Session', function(){
         assert.equal(session.topicWhitelisted('testxhello'), false);
     });
 
+    it('does load data fields', function() {
+        var obj = {
+            created: '1382105518000',
+            whitelist: '1|2',
+            "data_foo": 'bar',
+            "data_test": 123
+        };
+
+        var session = new Session(obj, 'session:test', [], redisClient);
+
+        assert.equal(session.data.foo, 'bar');
+        assert.equal(session.data.test, 123);
+    });
+
+    it('does save data fields', function() {
+        var obj = {
+            created: '1382105518000',
+            whitelist: '1|2'
+        };
+
+        var session = new Session(obj, 'session:test', [], redisClient);
+
+        session.data.foo = 'bar';
+
+        session.save();
+
+        assert.equal(redisClient.hmset.lastCall.args[1]['data_foo'], 'bar');
+    });
+
 });

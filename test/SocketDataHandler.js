@@ -24,7 +24,8 @@ describe('SocketDataHandler', function(){
         redisPubSub.publish = sinon.spy();
         session = {
             whitelist: ['redis.public.*', 'http.public.*'],
-            whitelistTopic: sinon.spy()
+            whitelistTopic: sinon.spy(),
+            data: { bar: "foo" }
         };
         session.topicWhitelisted = sinon.stub().returns(true);
         session.save = sinon.spy();
@@ -64,6 +65,7 @@ describe('SocketDataHandler', function(){
         assert.equal(redisPubSub.publish.callCount, 1);
         assert.equal(redisPubSub.publish.firstCall.args[0], 'redis.public');
         assert.equal(redisPubSub.publish.firstCall.args[1].data.foo, 'bar');
+        assert.equal(redisPubSub.publish.firstCall.args[1].sessionData.bar, 'foo');
     });
 
     describe('does handle http topics', function() {
@@ -136,6 +138,11 @@ describe('SocketDataHandler', function(){
         redisPubSub.emit('rohrpost.client.' + sessionId, {"remove": ['http.public.*']});
         assert.deepEqual(session.whitelist, ['redis.public.*']);
         assert.equal(redisPubSub.listeners('http.public.*').length, 0);
+    });
+
+    it('does allow sessionData to be changed', function() {
+        redisPubSub.emit('rohrpost.client.' + sessionId, {"sessionData": {key: "value"}});
+        assert.deepEqual(session.data, {key: 'value'});
     });
 
 });
