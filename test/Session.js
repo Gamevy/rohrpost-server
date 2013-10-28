@@ -43,6 +43,12 @@ describe('Session', function(){
         assert.deepEqual(session.whitelist, ['1', '2', '3']);
     });
 
+    it('ignores duplicates', function() {
+        var session = new Session(null, 'session:test', ['1', '2'], redisClient);
+        session.whitelistTopic('1');
+        assert.deepEqual(session.whitelist, ['1', '2']);
+    });
+
     it('can be saved', function() {
         var obj = {
             created: '1382105518000',
