@@ -31,6 +31,10 @@ describe('wildcardsToRegex', function(){
         assert.notOk(wildcardsToRegex('foo.bar').test('fooxbar'));
     });
 
+    it('does not get confused with wildcards and dots', function() {
+        assert.notOk(wildcardsToRegex('table.1.*').test('table.1update.currentState'));
+    });
+
     it('does handle slashed in the rule correctly', function() {
         assert.ok(wildcardsToRegex('foo\\.bar').test('foo\\.bar'));
         assert.notOk(wildcardsToRegex('foo\\.bar').test('foo.bar'));
