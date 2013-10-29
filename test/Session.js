@@ -39,13 +39,13 @@ describe('Session', function(){
 
     it('can whitelist topics', function() {
         var session = new Session(null, 'session:test', ['1', '2'], redisClient);
-        session.whitelistTopic('3');
+        assert.ok(session.whitelistTopic('3'));
         assert.deepEqual(session.whitelist, ['1', '2', '3']);
     });
 
     it('ignores duplicates', function() {
         var session = new Session(null, 'session:test', ['1', '2'], redisClient);
-        session.whitelistTopic('1');
+        assert.notOk(session.whitelistTopic('1'));
         assert.deepEqual(session.whitelist, ['1', '2']);
     });
 

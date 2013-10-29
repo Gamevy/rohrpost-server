@@ -24,7 +24,7 @@ describe('SocketDataHandler', function(){
         redisPubSub.publish = sinon.spy();
         session = {
             whitelist: ['redis.public.*', 'http.public.*'],
-            whitelistTopic: sinon.spy(),
+            whitelistTopic: sinon.stub().returns(true),
             data: { bar: "foo" }
         };
         session.topicWhitelisted = sinon.stub().returns(true);
@@ -130,6 +130,13 @@ describe('SocketDataHandler', function(){
         assert.equal(redisPubSub.listeners('redis.private.*').length, 0);
         redisPubSub.emit('rohrpost.client.' + sessionId, {"add": ['redis.private.*']});
         assert.equal(session.whitelistTopic.lastCall.args[0], 'redis.private.*');
+        assert.equal(redisPubSub.listeners('redis.private.*').length, 1);
+    });
+
+    it('does not add event listeners twice', function() {
+        redisPubSub.emit('rohrpost.client.' + sessionId, {"add": ['redis.private.*']});
+        session.whitelistTopic = sinon.stub().returns(false);
+        redisPubSub.emit('rohrpost.client.' + sessionId, {"add": ['redis.private.*']});
         assert.equal(redisPubSub.listeners('redis.private.*').length, 1);
     });
 
