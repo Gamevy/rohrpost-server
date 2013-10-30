@@ -34,13 +34,6 @@ stop() {
         return 1
     fi
 
-    pid=`cat $pidfile`
-    kill $pid -2 >& /dev/null
-    if [ $? -ne 0 ]; then
-        echo "Operation not permitted."
-        return 1
-    fi
-
     start-stop-daemon -p $pidfile --stop
     if [ $? -ne 0 ]; then
         echo "Failed to stop rohrpost."
