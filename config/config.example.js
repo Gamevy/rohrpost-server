@@ -36,6 +36,10 @@ module.exports = {
 		/* This is the host used for both the main process as well as the workers */
 		"host": "0.0.0.0",
 
+		/* This is the host the browsers will try to connect to. It can be the same as host
+		   but it can be different based on your routing */
+		"hostExternal": "yourdomain.com",
+
 		/* This is the main port that serves the connection information (and static http in dev environments) */
 		"mainPort": 3000,
 

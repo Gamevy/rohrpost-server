@@ -17,7 +17,8 @@ describe('HttpServer', function(){
                     key: require('fs').readFileSync(__dirname + "/../config/keys/key.pem"),
                     cert: require('fs').readFileSync(__dirname + "/../config/keys/cert.pem")
                 },
-                host: "127.0.0.1",
+                host: "0.0.0.0",
+                hostExternal: "test.com",
                 mainPort: 7680,
                 path: "/connect-test"
             }
@@ -33,11 +34,11 @@ describe('HttpServer', function(){
         httpServer.start();
 
         request({
-                uri: 'http://127.0.0.1:7680/connect-test',
+                uri: 'http://localhost:7680/connect-test',
                 json: true
             },
             function (error, response, body) {
-                assert.equal(body, 'http://127.0.0.1:1337/rohrpost');
+                assert.equal(body, 'http://test.com:1337/rohrpost');
                 done();
             }
         );
@@ -48,12 +49,12 @@ describe('HttpServer', function(){
         httpServer.start();
 
         request({
-                uri: 'https://127.0.0.1:7680/connect-test',
+                uri: 'https://localhost:7680/connect-test',
                 json: true,
                 strictSSL: false
             },
             function (error, response, body) {
-                assert.equal(body, 'https://127.0.0.1:1337/rohrpost');
+                assert.equal(body, 'https://test.com:1337/rohrpost');
                 done();
             }
         );
@@ -64,7 +65,7 @@ describe('HttpServer', function(){
         httpServer.start();
 
         request({
-                uri: 'https://127.0.0.1:7680/foo.txt',
+                uri: 'https://localhost:7680/foo.txt',
                 json: true,
                 strictSSL: false
             },
@@ -79,7 +80,7 @@ describe('HttpServer', function(){
         httpServer.start();
 
         request({
-                uri: 'http://127.0.0.1:7680/foo.txt',
+                uri: 'http://localhost:7680/foo.txt',
                 json: true
             },
             function (error, response, body) {
