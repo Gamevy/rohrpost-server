@@ -45,7 +45,15 @@ module.exports = {
 
 		/* For each those ports there will be one instance spawned accepting websocket connections. Make
 		   sure all of those ports are publicly reachable on the host defined above */
-		"workerPorts": [3001, 3002, 3003, 3004]
+		"workerPorts": [3001, 3002, 3003, 3004],
+
+		/* If this is set to true all workers are spawned with a --debug flag. Their
+		   Debug port is their defined port + 60000 */
+		"debugWorker": false,
+
+		/* Recycling workers after a certain amaout of time */
+		"recyclingSecondsMin": 5 * 60,
+		"recyclingSecondsMax": 7 * 60
 	},
 
 	/* You can use different redis instances for storage and pubsub, but it's not a requirement */
