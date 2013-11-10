@@ -52,8 +52,7 @@ module.exports = {
 		"debugWorker": false,
 
 		/* Recycling workers after a certain amaout of time */
-		"recyclingSecondsMin": 5 * 60,
-		"recyclingSecondsMax": 7 * 60
+		"recyclingSeconds": 5 * 60,
 	},
 
 	/* You can use different redis instances for storage and pubsub, but it's not a requirement */
