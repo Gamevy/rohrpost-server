@@ -51,8 +51,8 @@ module.exports = {
 		   Debug port is their defined port + 60000 */
 		"debugWorker": false,
 
-		/* Recycling workers after a certain amaout of time */
-		"recyclingSeconds": 5 * 60,
+		/* Recycling workers after a certain amount of time */
+		"recyclingInterval": 2 * 60,
 	},
 
 	/* You can use different redis instances for storage and pubsub, but it's not a requirement */
