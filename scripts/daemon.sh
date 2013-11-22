@@ -9,7 +9,7 @@
 # Short-Description:    Rohrpost Server
 ### END INIT INFO
 
-# Taken losely from https://gist.github.com/tilfin/5004848
+# Taken loosely from https://gist.github.com/tilfin/5004848
 prgcmd=rohrpost # What gets executed?
 prgname=rohrpost # What's the name (used to ensure only one instance is running)
 prguser=rohrpost # Which user should be used
