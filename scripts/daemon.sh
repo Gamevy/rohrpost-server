@@ -1,5 +1,14 @@
 #!/bin/bash
 
+### BEGIN INIT INFO
+# Provides:             rohrpost-server
+# Required-Start:       $all
+# Required-Stop:        $all
+# Default-Start:        2 3 4 5
+# Default-Stop:         0 1 6
+# Short-Description:    Rohrpost Server
+### END INIT INFO
+
 # Taken losely from https://gist.github.com/tilfin/5004848
 prgcmd=rohrpost # What gets executed?
 prgname=rohrpost # What's the name (used to ensure only one instance is running)
