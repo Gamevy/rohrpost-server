@@ -66,4 +66,13 @@ module.exports = {
 			"port": 6379
 		}
 	},
+
+	"statsd": {
+		"host": "127.0.0.1",
+		"port": 8125,
+		"prefix": "rohrpost.",
+		"dnsCache": "true",
+		/* This is useful for environments without statsd */
+		"mock": true 
+	}
 }

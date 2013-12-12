@@ -14,7 +14,7 @@
     "rohrpost": "./lib/app.js"
   },
   "scripts": {
-  	"start": "./lib/app.js",
+    "start": "./lib/app.js",
     "test": "mocha test -R tap --recursive --check-leaks"
   },
   "repository": {
@@ -28,17 +28,18 @@
     "pubsub",
     "redis"
   ],
-  "dependencies" : {
+  "dependencies": {
     "sockjs": "0.3.7",
     "express": "3.4.2",
     "bunyan": "0.22.0",
     "underscore": "1.5.2",
     "redis": "0.8.4",
     "request": "2.27.0",
-    "redis-pubsub-emitter": "0.0.3"
+    "redis-pubsub-emitter": "0.0.3",
+    "node-statsd": "0.0.7"
   },
   "devDependencies": {
-    "mocha":  "1.13.0",
+    "mocha": "1.13.0",
     "chai": "1.7.2",
     "sinon": "1.7.3"
   },
