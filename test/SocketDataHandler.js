@@ -5,6 +5,7 @@ var SocketDataHandler = require('../lib/SocketDataHandler.js');
 var HttpRequestRouter = require('../lib/HttpRequestRouter.js');
 var EventEmitter = require('events').EventEmitter;
 var logger = require('./mocks/logger.js');
+var stats = require('./mocks/stats.js');
 
 describe('SocketDataHandler', function(){
 
@@ -31,7 +32,7 @@ describe('SocketDataHandler', function(){
         session.save = sinon.spy();
         connection = new EventEmitter();
         connection.write = sinon.spy(function() { });
-        socketDataHandler = new SocketDataHandler(redisPubSub, httpRequestRouter, session, sessionId, connection, logger);
+        socketDataHandler = new SocketDataHandler(redisPubSub, httpRequestRouter, session, sessionId, connection, logger, stats);
     });
 
     it('does nothing if data is not valid', function() {
