@@ -8,7 +8,8 @@ describe('Session', function(){
 
     beforeEach(function() {
         redisClient = {
-            hmset: sinon.spy()
+            hmset: sinon.spy(),
+            expire: sinon.spy()
         };
     });
 
@@ -115,6 +116,7 @@ describe('Session', function(){
         session.save();
 
         assert.equal(redisClient.hmset.lastCall.args[1]['data_foo'], 'bar');
+        assert.equal(redisClient.expire.lastCall.args[1], 600);
     });
 
 });
