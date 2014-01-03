@@ -35,7 +35,7 @@
     "underscore": "1.5.2",
     "redis": "0.8.4",
     "request": "2.27.0",
-    "redis-pubsub-emitter": "0.0.3",
+    "redis-pubsub-emitter": "0.2.0",
     "node-statsd": "0.0.7"
   },
   "devDependencies": {
